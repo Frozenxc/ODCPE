@@ -18,7 +18,7 @@ The local inspection inputs include an Apktool-decoded resources/smali tree and 
 
 ## Build and signing limitations
 
-The prior local unsigned Apktool rebuild is not proof of safe distribution or device functionality. The unsafe automatic publishing workflow has been replaced with a metadata safety check. There is no public build workflow claiming to consume absent application inputs.
+The prior local unsigned Apktool rebuild is not proof of safe distribution or device functionality. The unsafe local automatic publishing workflow has been replaced locally with a metadata safety check. GitHub rejected publishing the workflow file (HTTP 404); no workflow is installed remotely. The safety-check script is published and can be run manually. There is no public build workflow claiming to consume absent application inputs.
 
 Do not use the previously generated local/repository keystore for production signing. It is excluded from publication. Future test builds must use ephemeral debug signing; production signing requires a privately controlled key delivered through GitHub secrets, after security and rights review. A rebuilt APK cannot update the installed original unless its signing certificate matches; ephemeral test builds cannot update each other reliably. Uninstalling the original may lose application data.
 
