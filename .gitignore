@@ -1,0 +1,20 @@
+# Private/unreviewed application inputs and outputs
+/app/
+/decompiled/
+/sources/
+/tools/
+/keystore/
+/build/
+*.apk
+*.aab
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.key
+*.pem
+*.jar
+*.zip
+*.tar*
+__pycache__/
+*.log
