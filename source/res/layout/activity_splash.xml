@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/jiohome_splash" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:gravity="center" android:background="@drawable/dr_splash_circle" android:layout_width="@dimen/_80dp" android:layout_height="@dimen/_80dp">
+            <ImageView android:id="@id/imgJioHomelogo" android:layout_width="@dimen/_80dp" android:layout_height="@dimen/_80dp" android:layout_marginTop="@dimen/_15dp" android:layout_marginBottom="@dimen/_15dp" android:src="@drawable/logo" android:layout_marginStart="@dimen/_15dp" android:layout_marginEnd="@dimen/_15dp" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/_28sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvAppName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/jfe_app_name" android:layout_below="@id/imgJioHomelogo" android:fontFamily="@font/jiotype_medium" />
+    </LinearLayout>
+</RelativeLayout>

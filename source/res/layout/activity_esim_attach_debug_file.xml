@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/attachBarLayout" android:layout_width="match_parent" android:layout_height="0.0dp" android:elevation="@dimen/px0" app:elevation="@dimen/px0" app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.Toolbar android:id="@id/attachMeshToolbar" android:background="@color/esim_new_ux_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/px0" app:elevation="@dimen/px0">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@id/attachMeshToolbarBack" android:paddingLeft="@dimen/px5" android:paddingRight="@dimen/px5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitCenter" android:contentDescription="@string/esim_back_to_previous_page" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="@dimen/sp20" android:textColor="@color/light_white" android:id="@id/attachMeshToolbarText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esim_attach_to_work_order_btn" android:layout_centerVertical="true" android:paddingStart="@dimen/px40" android:paddingEnd="@dimen/px0" android:layout_alignParentStart="true" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/attachBarLayout" app:layout_constraintVertical_bias="0.0">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20.0dp" android:layout_marginStart="@dimen/dp10" android:layout_marginEnd="@dimen/dp10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintVertical_bias="0.0">
+                <TextView android:textSize="@dimen/sp20" android:id="@id/attachTextField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esim_attach_to_work_order_btn" android:layout_marginStart="@dimen/sp25" android:layout_marginEnd="@dimen/sp25" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

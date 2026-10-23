@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_view_big" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rel_lyt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_micro" android:layout_marginStart="@dimen/padding_micro" android:layout_marginEnd="@dimen/padding_horizontal">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/chronometer">
+            <TextView android:textAppearance="@style/PushTitle" android:ellipsize="end" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:maxLines="1" />
+            <TextView android:textAppearance="@style/PushMessageMultiLine" android:ellipsize="end" android:id="@id/msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:maxLines="4" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+        </RelativeLayout>
+        <Chronometer android:textSize="@dimen/chronometer_font_size" android:textColor="@color/titleColor" android:id="@id/chronometer" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textAlignment="center" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:id="@id/big_media_configurable" layout="@layout/image_media_dynamic_linear" />
+</LinearLayout>

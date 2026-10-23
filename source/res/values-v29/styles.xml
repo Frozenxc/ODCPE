@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="JioAppTheme" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/cardColor1</item>
+        <item name="colorPrimary">@color/cardColor1</item>
+        <item name="colorPrimaryDark">@color/status</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

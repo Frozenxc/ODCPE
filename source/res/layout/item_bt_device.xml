@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_device_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Device Name" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/tv_device_mac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00:00:00:00" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tv_device_dbm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-120 dBm" android:layout_marginStart="8.0dp" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff0000ff" android:id="@id/tv_device_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textColor="#ffffffff" android:id="@id/btn_connect_device" android:background="#ff0000ff" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connect" />
+</LinearLayout>

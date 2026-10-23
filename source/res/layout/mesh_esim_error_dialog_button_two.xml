@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mesh_drawable_error_background" android:layout_width="@dimen/ll_width_dialog" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/sp18" android:textColor="@color/unittitle" android:gravity="center" android:id="@id/mesh_error_two_btn_tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_tittle_margin_top" android:text="@string/esim_connection_failed" android:fontFamily="@font/esim_jiotype_medium" />
+        <TextView android:textSize="@dimen/sp16" android:textColor="@color/txt_dc" android:gravity="center" android:id="@id/mesh_error_two_btn_tv_message" android:padding="@dimen/px10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px20" android:layout_marginTop="@dimen/px10" android:layout_marginRight="@dimen/px20" android:layout_marginBottom="@dimen/px20" android:text="@string/esim_reboot_odu_restart_bluetooth" android:fontFamily="@font/esim_jiotype_light" />
+        <View android:background="@color/primary_ui" android:layout_width="match_parent" android:layout_height="@dimen/px2" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/px48" style="?android:buttonBarStyle">
+            <Button android:textSize="@dimen/sp18" android:textColor="@drawable/mesh_drawable_error_negative_button_text_color" android:id="@id/mesh_error_two_btn_left" android:background="@drawable/mesh_drawable_error_negative_button" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/esim_btn_exit" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+            <Button android:textSize="@dimen/sp18" android:textColor="@drawable/mesh_drawable_error_positive_button_text_color" android:id="@id/mesh_error_two_btn_right" android:background="@drawable/mesh_drawable_error_positivie_button" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/esim_btn_retry" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

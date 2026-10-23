@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:backgroundTint="@color/transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ProgressBar android:id="@id/id_progress_bar_jfe" android:padding="@dimen/px10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/px10" android:indeterminateDrawable="@drawable/progress_new" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/sp14" android:textColor="@color/white" android:gravity="center" android:id="@id/id_title_progress_bar_jfe" android:padding="@dimen/px8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Progress Bar" android:layout_below="@id/id_progress_bar_jfe" android:layout_centerHorizontal="true" android:fontFamily="@font/jiotype_medium" />
+    </RelativeLayout>
+</RelativeLayout>

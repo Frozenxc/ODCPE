@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/px0" app:elevation="@dimen/px0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/mesh_toolbar" android:background="@color/esim_new_ux_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/px0" app:elevation="@dimen/px0">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/iv_mesh_toolbar_back" android:paddingLeft="@dimen/px5" android:paddingRight="@dimen/px5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:contentDescription="@string/esim_back_to_previous_page" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/actionbar_setup_textsize" android:textColor="@color/light_white" android:id="@id/tv_mesh_toolbar_title" android:paddingLeft="40.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

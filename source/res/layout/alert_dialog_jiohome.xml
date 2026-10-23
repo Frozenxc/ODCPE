@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_fifteen" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_30dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_20dp">
+        <LinearLayout android:gravity="right" android:id="@id/lytClose" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivClose" android:layout_width="@dimen/dp30" android:layout_height="@dimen/dp30" android:src="@drawable/ic_alert_close" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/_24sp" android:textStyle="bold" android:textColor="@color/terms_color" android:id="@id/tvHeader" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20dp" android:text="@string/jfe_oops" android:layout_below="@id/lytClose" android:fontFamily="@font/jiotype_bold" />
+        <TextView android:textSize="@dimen/_16sp" android:textColor="@color/onboarding_tittle" android:id="@id/tvLocked" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_below="@id/tvHeader" android:fontFamily="@font/jiotype_light" />
+        <TextView android:textSize="@dimen/_16sp" android:textColor="@color/toolbar" android:gravity="center" android:id="@id/tvOk" android:background="@drawable/dr_alert_circle" android:layout_width="match_parent" android:layout_height="@dimen/_40dp" android:layout_marginTop="@dimen/dp30" android:layout_marginBottom="@dimen/_15dp" android:text="@string/jfe_ok" android:layout_below="@id/tvLocked" android:fontFamily="@font/jiotype_medium" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,31 @@
+.class public final Lcom/jio/adc/core/module/br/BuildConfig;
+.super Ljava/lang/Object;
+.source "com.odcpe.connect"
+
+
+# static fields
+.field public static final BUILD_TYPE:Ljava/lang/String; = "release"
+
+.field public static final DEBUG:Z = false
+
+.field public static final FLAVOR:Ljava/lang/String; = "normal"
+
+.field public static final LIBRARY_PACKAGE_NAME:Ljava/lang/String; = "com.jio.adc.core.module.br"
+
+.field public static final VERSION_CODE:I = 0x7e7fea08
+
+.field public static final VERSION_NAME:Ljava/lang/String; = "4.2.3"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

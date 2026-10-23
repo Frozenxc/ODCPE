@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/rounded_corners_dialog" android:insetLeft="30.0dp" android:insetRight="30.0dp" android:insetBottom="30.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

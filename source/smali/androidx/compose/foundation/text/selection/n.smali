@@ -1,0 +1,37 @@
+.class public final synthetic Landroidx/compose/foundation/text/selection/n;
+.super Ljava/lang/Object;
+.source "com.odcpe.connect"
+
+# interfaces
+.implements Landroidx/compose/foundation/text/selection/o;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroidx/compose/foundation/text/selection/r;)Landroidx/compose/foundation/text/selection/i;
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Landroidx/compose/foundation/text/selection/o$a;->c(Landroidx/compose/foundation/text/selection/r;)Landroidx/compose/foundation/text/selection/i;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method

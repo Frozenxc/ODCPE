@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/px0" app:elevation="@dimen/px0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rltool" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/esim_new_ux_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/px0" app:elevation="@dimen/px0">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@id/esim_open_manual_activity" android:paddingRight="@dimen/px10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baseline_tungsten_24" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/esim_back_to_previous_page" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/iv_back" android:paddingLeft="@dimen/px5" android:paddingRight="@dimen/px5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/esim_back_button_desc" android:layout_alignParentStart="true" />
+                <TextView android:textSize="@dimen/installation_guide_textsize" android:textColor="@color/light_white" android:gravity="center" android:id="@id/title" android:layout_width="255.0dp" android:layout_height="@dimen/px44" android:text="@string/esim_device_connection_title" android:layout_centerInParent="true" android:fontFamily="@font/esim_jiotype_medium" />
+                <LinearLayout android:id="@id/iv_refresh_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerVertical="true" android:paddingStart="@dimen/px5" android:paddingEnd="@dimen/px24" android:layout_alignParentStart="false" android:layout_alignParentEnd="true">
+                    <ImageView android:id="@id/iv_refresh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_centerVertical="true" android:contentDescription="@string/esim_back_button_desc" />
+                    <ImageView android:id="@id/iv_ping" android:visibility="gone" android:layout_width="@dimen/px36" android:layout_height="@dimen/px36" android:src="@drawable/ip_address_ping" android:contentDescription="@string/esim_back_button_desc" android:paddingStart="@dimen/px12" android:backgroundTint="@color/transparent" app:tint="@color/white" />
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
+</com.google.android.material.appbar.AppBarLayout>

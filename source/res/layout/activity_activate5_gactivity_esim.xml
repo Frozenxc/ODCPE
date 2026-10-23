@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#fff8f9fa" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_toolbar" android:background="@color/colorJioHomePrimary" android:layout_width="match_parent" android:layout_height="56.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="eSIM Profiles" android:layout_marginStart="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/colorJioHomePrimary" android:id="@id/btn_reboot" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="Reboot" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_marginEnd="16.0dp" android:backgroundTint="@color/white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/colorJioHomePrimary" android:gravity="center" android:id="@id/tv_response" android:background="#ffe9ecef" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Searching for eSIM profiles..." app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/cl_toolbar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_debug_info" android:background="#ffe9ecef" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_response">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BT PAN IP: " />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black" android:id="@id/tv_bt_pan_ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not Connected" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QSESSION ID: " />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black" android:id="@id/tv_qsession_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="None" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/sv_actions" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_debug_info">
+        <ScrollView android:id="@id/sv_profiles" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_profiles_container" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ScrollView android:id="@id/sv_actions" android:background="#ffffffff" android:padding="8.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="220.0dp" app:layout_constraintBottom_toTopOf="@id/ll_main_buttons" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/colorJioHomePrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="Developer Option" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_download_xml_main" android:layout_width="match_parent" android:layout_height="44.0dp" android:text="Download XML Config" android:backgroundTint="@color/colorJioHomePrimary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_get_profile" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Get Profile" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_install_profile" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Install Profile" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_send_notifcation" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Send Notif" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_reboot_device" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Reboot Device" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_delete_profile" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Delete Profile" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_get_device_info" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Device Info" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_get_eid" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Get EID" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_get_cell_info_by_cell_id" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Cell Info" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_get_current_cell_id_list" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Cell ID List" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+                <View android:layout_width="0.0dp" android:layout_height="44.0dp" android:layout_weight="1.0" android:layout_marginStart="4.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_main_buttons" android:background="#ffffffff" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_release_bt" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Release BT" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_add_profile" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Add eSIM" android:layout_weight="1.0" android:backgroundTint="@color/colorJioHomePrimary" android:layout_marginHorizontal="4.0dp" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_advance_main" android:layout_width="0.0dp" android:layout_height="44.0dp" android:text="Advance" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:backgroundTint="@color/colorJioHomePrimary" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_hidden_dummies" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/const_exit" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/const_get" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/const_put" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/const_set" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

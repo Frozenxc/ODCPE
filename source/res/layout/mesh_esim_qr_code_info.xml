@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/rounded_corners_shape" android:padding="@dimen/px15" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_mesh_qr_home" android:layout_width="@dimen/px20" android:layout_height="@dimen/px20" />
+        <TextView android:textSize="@dimen/sp18" android:gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/px40" android:text="Find the QR Code" android:layout_toLeftOf="@id/img_mesh_qr_close1" android:layout_toRightOf="@id/img_mesh_qr_home" android:fontFamily="@font/esim_jiotype_medium" />
+        <ImageView android:id="@id/img_mesh_qr_close1" android:layout_width="@dimen/px20" android:layout_height="@dimen/px20" android:src="@drawable/close" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/px280" android:layout_height="@dimen/px240" android:src="@null" />
+    <TextView android:textSize="@dimen/sp14" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px20" android:layout_marginRight="@dimen/px20" android:text="Find the QR code present on device label. Device label is present at the back or bottom of your JioExtender." android:fontFamily="@font/esim_jiotype_light" />
+    <Button android:textSize="@dimen/sp18" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_qr_gotit" android:background="@drawable/mesh_drawable_button_round_login" android:layout_width="@dimen/px240" android:layout_height="@dimen/px44" android:layout_marginTop="@dimen/px30" android:layout_marginBottom="@dimen/px10" android:text="@string/esim_got_it" android:textAllCaps="false" style="@style/ESIM_LoginButton" />
+</LinearLayout>

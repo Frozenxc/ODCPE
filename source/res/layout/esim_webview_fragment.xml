@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_inc" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/esim_toolbar_wifi" />
+    <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar_inc" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

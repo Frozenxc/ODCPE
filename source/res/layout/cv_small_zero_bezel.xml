@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content_view_small" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/big_media_configurable" layout="@layout/image_media_dynamic_relative" />
+    <ImageView android:id="@id/zero_bezel_scrim" android:background="@drawable/pt_scrim" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignBottom="@id/big_media_configurable" android:importantForAccessibility="no" />
+    <RelativeLayout android:paddingLeft="@dimen/padding_horizontal" android:paddingTop="@dimen/padding_micro" android:paddingRight="@dimen/padding_horizontal" android:paddingBottom="@dimen/padding_micro" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/big_media_configurable" android:paddingStart="@dimen/padding_horizontal" android:paddingEnd="@dimen/padding_horizontal">
+        <include android:id="@id/metadata" layout="@layout/metadata" />
+        <TextView android:textAppearance="@style/PushTitle" android:ellipsize="end" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_micro" android:maxLines="1" android:layout_below="@id/metadata" android:layout_alignStart="@id/metadata" />
+        <TextView android:textAppearance="@style/PushMessage" android:ellipsize="end" android:id="@id/msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+    </RelativeLayout>
+</RelativeLayout>

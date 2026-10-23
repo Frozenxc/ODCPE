@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_scanner_toolbar" android:background="#ff23297a" android:layout_width="match_parent" android:layout_height="56.0dp" android:elevation="4.0dp">
+        <ImageButton android:id="@id/btn_scanner_close" android:background="@null" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/tv_scanner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ODU Scanning Panel" android:layout_centerVertical="true" android:layout_marginStart="16.0dp" />
+        <Button android:textSize="12.0sp" android:textColor="#ff23297a" android:id="@id/btn_toggle_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="36.0dp" android:text="Stop Scanning" android:layout_centerVertical="true" android:layout_marginEnd="8.0dp" android:layout_alignParentEnd="true" android:backgroundTint="#ffffffff" android:paddingHorizontal="12.0dp" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/pb_scanning" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@id/lv_bt_devices" android:padding="8.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="8.0dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+.class public final synthetic Lyg/c;
+.super Ljava/lang/Object;
+.source "com.odcpe.connect"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lyg/g;
+
+.field public final synthetic b:Lyg/o;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lyg/g;Lyg/o;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lyg/c;->a:Lyg/g;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lyg/c;->b:Lyg/o;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lyg/c;->a:Lyg/g;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lyg/c;->b:Lyg/o;
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Lyg/g;->c(Lyg/g;Lyg/o;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

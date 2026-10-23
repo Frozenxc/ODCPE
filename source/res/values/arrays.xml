@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="devices">
+        <item>#ff37c47e</item>
+        <item>#ff87c3f6</item>
+        <item>#ffe28181</item>
+        <item>#ffb485df</item>
+        <item>#ffffca4a</item>
+        <item>#ff1b508d</item>
+        <item>#ff0087cb</item>
+        <item>#ffe43f38</item>
+        <item>#ff77d334</item>
+        <item>#ff00a69d</item>
+        <item>#fff9a700</item>
+        <item>#ffee4913</item>
+        <item>#ff2ba8ca</item>
+        <item>#ff28a53d</item>
+        <item>#ff816d61</item>
+        <item>#ff474e5e</item>
+        <item>#ff38affc</item>
+        <item>#fff6564b</item>
+        <item>#ff6f97b2</item>
+        <item>#ff85bc9b</item>
+        <item>#ffff4d63</item>
+        <item>#ff464646</item>
+        <item>#ffe77527</item>
+        <item>#fff1ee1f</item>
+        <item>#ffb7a885</item>
+        <item>#ffb20041</item>
+        <item>#ff31516f</item>
+        <item>#ffc8b29a</item>
+        <item>#ff85bc9b</item>
+        <item>#ffff69dc</item>
+    </array>
+    <array name="loader_colors">
+        <item>#ff3eb5ea</item>
+        <item>#ff50bcaa</item>
+        <item>#ff4747ff</item>
+        <item>#ff23297a</item>
+    </array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/action_bar_idu" layout="@layout/mesh_esim__actionbar_help" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/sp18" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_check_ip_configured" android:background="@drawable/esim_new_ui_btn_blue" android:padding="@dimen/px10" android:visibility="gone" android:layout_width="300.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px24" android:layout_marginTop="@dimen/px24" android:layout_marginRight="@dimen/px24" android:layout_marginBottom="@dimen/px24" android:text="@string/esim_idu_local_timer_check_ip_configuration" android:textAllCaps="false" android:fontFamily="@font/esim_jiotype_bold" android:layout_marginHorizontal="@dimen/px24" android:layout_marginVertical="@dimen/px24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

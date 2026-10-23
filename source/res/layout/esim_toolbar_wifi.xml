@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="?android:actionBarSize" android:elevation="@dimen/px0" app:elevation="@dimen/px0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:background="@color/esim_new_ux_primary" android:layout_width="match_parent" android:layout_height="?android:actionBarSize">
+        <ImageView android:id="@id/iv_google_okla_webview_back" android:paddingLeft="@dimen/px8" android:paddingRight="@dimen/px5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitCenter" android:layout_centerInParent="true" android:contentDescription="@string/esim_back_button_desc" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/sp18" android:textColor="@color/light_white" android:id="@id/tv_jiohome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esim_web_gui" android:layout_centerInParent="true" android:paddingStart="@dimen/px0" android:paddingEnd="@dimen/px5" android:layout_toEndOf="@id/iv_google_okla_webview_back" />
+        <ImageView android:id="@id/iv_reload_url" android:paddingLeft="@dimen/px5" android:paddingRight="@dimen/px15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/refresh_24" android:scaleType="fitCenter" android:tint="@color/white" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:contentDescription="@string/esim_back_button_desc" />
+    </RelativeLayout>
+</RelativeLayout>

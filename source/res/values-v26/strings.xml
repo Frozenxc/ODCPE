@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_mdns_response">We are not able to detect Jio WiFi Device in the network, please connect Jio WiFi Device with your router and try again</string>
+    <string name="msg_invalidQR_ODU">"This device need to be installed by Jio Service engineer. 
+ If not installed select Later else scan 2nd, in house WiFi device which you received with this setup"</string>
+    <string name="network_coverage">WiFi Coverage</string>
+    <string name="signal_page">Signal Page</string>
+</resources>
