@@ -1,0 +1,62 @@
+name: Build and Release APK
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install apktool 2.10.0
+        run: |
+          curl -sSL -o apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v2.10.0/apktool_2.10.0.jar
+          sha256sum apktool.jar
+
+      - name: Rebuild APK from source/
+        run: |
+          java -jar apktool.jar b source -o rebuilt-unsigned.apk
+
+      - name: Align and sign (ephemeral debug key)
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "build-tools;34.0.0" > /dev/null
+          BT="$ANDROID_HOME/build-tools/34.0.0"
+          keytool -genkeypair -v -keystore debug.keystore -alias debug \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -storepass android -keypass android \
+            -dname "CN=ODCPE Debug,O=Debug,C=US"
+          "$BT/zipalign" -p 4 rebuilt-unsigned.apk rebuilt-aligned.apk
+          "$BT/apksigner" sign --ks debug.keystore --ks-pass pass:android \
+            --key-pass pass:android --out ODCPE_UI_UNLOCK.apk rebuilt-aligned.apk
+          "$BT/apksigner" verify ODCPE_UI_UNLOCK.apk
+          sha256sum ODCPE_UI_UNLOCK.apk
+
+      - name: Attach APK to tag release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ODCPE_UI_UNLOCK.apk
+          body: |
+            Automated rebuild of the UI-UNLOCK decode (`apktool b source`) — signed with an ephemeral debug key.
+            Note: a debug-signed build cannot update the installed stock app; uninstall first (app data will be lost).
+
+      - name: Upload build artifact (manual runs)
+        if: github.ref != 'refs/tags/'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ODCPE_UI_UNLOCK
+          path: ODCPE_UI_UNLOCK.apk

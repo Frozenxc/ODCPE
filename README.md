@@ -1,42 +1,29 @@
-# ODCPE Connect — UI Unlock
+# ODCPE Connect
 
-Full decode of the Jio ODCPE Connect APK (V3_005, versionName 1.0.47, versionCode 26041015,
-package `com.odcpe.connect`), including the **UI Unlock** modification: operator/factory-facing
-controls that the stock app hides with `android:visibility="gone"` are exposed.
+Inspection and rebuild notes for the supplied Android APK, labelled V3_005. ODU means **Outdoor Unit**. Use only with devices and services you are authorized to manage. Device compatibility, activation, and provisioning have not been tested; there is no claim of universal support or bypass of access controls.
 
-## Contents
+## Publication status — blocked
 
-| Path | What it is |
-|---|---|
-| `ODCPE_UI_UNLOCK.apk` | The modified APK (34.4 MB, SHA-256 `3cb03d67bd5797ab9efa92f78d47020c89c3dc9d22ee4db8b219bf149f7feb64`), re-signed with a non-original key (`MODKEY`) |
-| `source/` | Full apktool decode: AndroidManifest, smali (4 dex trees), res, assets, kotlin metadata |
-| `source_jadx/` | Full jadx Java decompile (16,709 sources) |
-| `ANALYSIS.md` | Triage summary: what the UI-unlock mod changes and where |
-| `scripts/check-publication.py` | Original publication-safety check (informational) |
+This repository currently contains documentation and a publication-safety check, **not the application source or a downloadable APK**. The supplied APK and decoded project contain an embedded PKCS#12 private-key container used by application TLS code. Application files and archives are withheld pending credential remediation and redistribution-rights review. The existing `v3.0.05` tag/release is not a verified distributable build. No APK download is offered.
 
-## What the UI Unlock exposes
+The local inspection inputs include an Apktool-decoded resources/smali tree and JADX Java output. These are **decompiled representations, not original source**. JADX output may be incomplete or invalid Java and is not a Gradle build project. They have not been uploaded to Git history or release archives.
 
-In the stock app these are hidden (`visibility="gone"`):
+## Verified input identity
 
-- `activity_esim_profile_activated_screen.xml` → **Debug button** (opens `ESimDebugMenuActivity`) and **Web GUI browser icon**
-- `activity_esim_profile_successfully_activated_screen.xml` → same debug button
+- Package: `com.odcpe.connect`
+- APK versionName: `1.0.47`; versionCode: `26041015`
+- Input filename label: V3_005 (not the Android versionName)
+- Input size: 34,459,789 bytes
+- SHA-256: `dec36fbba14ccb0837a86a6d57cbe8e1c4e80c699ba4ac22811f602c50f07bc2`
 
-The debug menu exposes: EOGRE details, factory reset, reboot device, cable diagnostics,
-RF signal, firmware/profile operations.
+## Build and signing limitations
 
-## Rebuild
+The prior local unsigned Apktool rebuild is not proof of safe distribution or device functionality. The unsafe local automatic publishing workflow has been replaced locally with a metadata safety check. GitHub rejected publishing the workflow file (HTTP 404); no workflow is installed remotely. The safety-check script is published and can be run manually. There is no public build workflow claiming to consume absent application inputs.
 
-```bash
-apktool b source -o rebuilt.apk
-zipalign -p 4 rebuilt.apk rebuilt-aligned.apk
-apksigner sign --ks <keystore> --out rebuilt-signed.apk rebuilt-aligned.apk
-```
+Do not use the previously generated local/repository keystore for production signing. It is excluded from publication. Future test builds must use ephemeral debug signing; production signing requires a privately controlled key delivered through GitHub secrets, after security and rights review. A rebuilt APK cannot update the installed original unless its signing certificate matches; ephemeral test builds cannot update each other reliably. Uninstalling the original may lose application data.
 
-Note: a rebuilt APK cannot update the installed original unless signing certificates match.
+Before enabling APK CI: obtain a credential-free input, review all obfuscated configuration for secrets, preserve third-party notices, pin and checksum the source archive and Apktool, install a fixed Android build-tools version under `$ANDROID_SDK_ROOT/build-tools/<version>`, and verify zipalign/apksigner results. A sanitized rebuild must not be represented as the unchanged original.
 
-## Legal / safety
+## Credit and rights
 
-Use only with devices and services you are authorized to manage. This is a decompiled
-third-party application published for inspection; all rights belong to their respective
-owners (Jio / ODCPE). No claim of authorship or redistribution permission beyond this
-documentation purpose.
+Credit requested by the uploader: [@H0NEYJI](https://t.me/H0NEYJI). This attribution is not evidence of ownership, authorship, affiliation, or redistribution permission. See [LICENSE](LICENSE) and [SECURITY.md](SECURITY.md).
