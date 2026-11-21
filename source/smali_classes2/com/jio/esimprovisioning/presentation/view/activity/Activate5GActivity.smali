@@ -7489,6 +7489,8 @@
 
     invoke-virtual {p0}, Lcom/jio/esimprovisioning/presentation/view/activity/Activate5GActivity;->setupCustomListeners()V
 
+    invoke-static {p0}, Lcom/jio/esimprovisioning/presentation/view/activity/OduModHelper;->attach(Landroid/app/Activity;)V
+
     return-void
 .end method
 

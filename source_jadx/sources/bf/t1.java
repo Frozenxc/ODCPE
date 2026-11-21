@@ -1,0 +1,26 @@
+package bf;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.messaging.Constants;
+import kotlin.Pair;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public abstract class t1 {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final af.a f10489a;
+
+    static {
+        af.b bVar = new af.b("container", dk.a.e(new af.b("entry-container", dk.a.e(new af.b("left-container", dk.a.e(new af.b("prefix-jds_icon", null, 2, null), new af.b("entry-jds_text", null, 2, null))), new af.b("suffix-jds_icon", null, 2, null))), new af.b("divider-container", dk.a.e(new af.b("jds_divider", null, 2, null))), new af.b("heading-container", dk.a.e(new af.b("heading-jds_text", null, 2, null)))));
+        Pair a10 = di.g.a("container", dk.a.c(di.g.a("opacity", "{m_0}"), di.g.a("background-color", "{m_1}"), di.g.a("width", "{m_2}")));
+        Boolean bool = Boolean.FALSE;
+        Pair a11 = di.g.a("entry-container", dk.a.c(di.g.a("hidden", bool), di.g.a("background-color", "{m_3}"), di.g.a("width", "{m_4}"), di.g.a("padding-top", "{m_5}"), di.g.a("padding-right", "{m_6}"), di.g.a("padding-bottom", "{m_7}"), di.g.a("padding-left", "{m_8}"), di.g.a("flex-direction", "{m_9}"), di.g.a("align-items", "{m_10}"), di.g.a("justify-content", "{m_11}"), di.g.a("border-width", Double.valueOf(0.0d)), di.g.a("border-color", "{m_12}"), di.g.a("border-radius", Double.valueOf(0.0d)), di.g.a("behavior", dk.a.c(di.g.a("hover", dk.a.c(di.g.a("background-color", "{m_13}"))), di.g.a("focus", dk.a.c(di.g.a("border-width", Double.valueOf(2.0d)), di.g.a("border-color", "{m_14}"), di.g.a("border-radius", "{m_15}")))))));
+        Boolean bool2 = Boolean.TRUE;
+        f10489a = new af.a(bVar, dk.a.c(a10, a11, di.g.a("prefix-jds_icon", dk.a.c(di.g.a("hidden", bool2), di.g.a("size", "medium"), di.g.a("color", "primary_grey_80"))), di.g.a("entry-jds_text", dk.a.c(di.g.a("color", "primary_grey_80"), di.g.a("appearance", "body_s"))), di.g.a("suffix-jds_icon", dk.a.c(di.g.a("size", "medium"), di.g.a("color", "primary_grey_80"))), di.g.a("divider-container", dk.a.c(di.g.a("hidden", bool2), di.g.a("width", "{m_16}"))), di.g.a("jds_divider", dk.a.c(di.g.a("pad", "none"), di.g.a("orientation", "horizontal"))), di.g.a("heading-container", dk.a.c(di.g.a("hidden", bool2), di.g.a("padding-top", "{m_17}"), di.g.a("padding-right", "{m_18}"), di.g.a("padding-bottom", "{m_19}"), di.g.a("padding-left", "{m_20}"), di.g.a("width", "{m_21}"), di.g.a("align-items", "{m_22}"), di.g.a("justify-content", "{m_23}"))), di.g.a("heading-jds_text", dk.a.c(di.g.a("color", "primary_grey_100"), di.g.a("appearance", "body_xs"))), di.g.a("left-container", dk.a.c(di.g.a("gap", "{m_24}"), di.g.a("flex-direction", "{m_25}"), di.g.a("align-items", "{m_26}")))), dk.a.c(di.g.a("type", dk.a.c(di.g.a("divider", dk.a.c(di.g.a("entry-container", dk.a.c(di.g.a("hidden", bool2))), di.g.a("divider-container", dk.a.c(di.g.a("hidden", bool))))), di.g.a("heading", dk.a.c(di.g.a("entry-container", dk.a.c(di.g.a("hidden", bool2))), di.g.a("heading-container", dk.a.c(di.g.a("hidden", bool))))))), di.g.a("selected", dk.a.c(di.g.a("true", dk.a.c(di.g.a("container", dk.a.c(di.g.a("background-color", "{m_27}"))))))), di.g.a("disabled", dk.a.c(di.g.a("true", dk.a.c(di.g.a("container", dk.a.c(di.g.a("disabled", bool2), di.g.a("opacity", "{m_28}"))))))), di.g.a("hasIcon", dk.a.c(di.g.a("true", dk.a.c(di.g.a("prefix-jds_icon", dk.a.c(di.g.a("hidden", bool))), di.g.a("heading-container", dk.a.c(di.g.a("padding-left", "{m_29}")))))))), dk.a.d(), dk.a.d(), dk.a.c(di.g.a("config", dk.a.c(di.g.a("type", dk.a.c(di.g.a("values", dk.a.e("entry", "divider", "heading")))), di.g.a("selected", dk.a.c(di.g.a("values", dk.a.e(bool, bool2)))), di.g.a("disabled", dk.a.c(di.g.a("values", dk.a.e(bool, bool2)))), di.g.a("hasIcon", dk.a.c(di.g.a("values", dk.a.e(bool, bool2)))))), di.g.a(Constants.ScionAnalytics.MessageType.DATA_MESSAGE, dk.a.c(di.g.a("container", dk.a.c(di.g.a("_item.value", dk.a.c(di.g.a("type", "string"), di.g.a("name", FirebaseAnalytics.Param.VALUE))))), di.g.a("entry-jds_text", dk.a.c(di.g.a("text", dk.a.c(di.g.a("type", "string"), di.g.a("name", Constants.ScionAnalytics.PARAM_LABEL))))), di.g.a("prefix-jds_icon", dk.a.c(di.g.a("ic", dk.a.c(di.g.a("type", "icon"), di.g.a("name", "prefix"))))), di.g.a("suffix-jds_icon", dk.a.c(di.g.a("ic", dk.a.c(di.g.a("type", "icon"), di.g.a("name", "suffix"))))), di.g.a("heading-jds_text", dk.a.c(di.g.a("text", dk.a.c(di.g.a("type", "string"), di.g.a("name", Constants.ScionAnalytics.PARAM_LABEL))))))), di.g.a("events", dk.a.c(di.g.a("entry-container", dk.a.c(di.g.a("onClick", "onSelect"))))), di.g.a("a11y", dk.a.c(di.g.a("container", dk.a.c(di.g.a("properties", dk.a.c(di.g.a("role", dk.a.c(di.g.a(FirebaseAnalytics.Param.VALUE, "option"))), di.g.a("aria-label", dk.a.c(di.g.a("name", "ariaLabel"), di.g.a("prop", Constants.ScionAnalytics.PARAM_LABEL))), di.g.a("aria-describedby", dk.a.c(di.g.a("name", "ariaDescribedby"), di.g.a("platform", "web,ios"))), di.g.a("aria-selected", dk.a.c(di.g.a("name", "_ariaSelected"), di.g.a("prop", "selected"))), di.g.a("aria-hidden", dk.a.c(di.g.a("name", "_ariaHidden")))))))))));
+    }
+
+    public static final af.a a() {
+        return f10489a;
+    }
+}

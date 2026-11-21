@@ -1,0 +1,7 @@
+package com.google.android.gms.internal.clearcut;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+interface zzeg {
+    <T> zzef<T> zzd(Class<T> cls);
+}

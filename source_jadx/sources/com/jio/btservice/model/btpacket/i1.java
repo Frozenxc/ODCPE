@@ -1,0 +1,21 @@
+package com.jio.btservice.model.btpacket;
+
+import com.jio.btservice.model.btpacket.BTPacket;
+import java.nio.ByteBuffer;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public class i1 extends BTPacket {
+    public i1() {
+        super(BTPacket.BTPacketType.UNDEFINED);
+    }
+
+    public static BTPacket f(ByteBuffer byteBuffer) {
+        return new i1();
+    }
+
+    @Override // com.jio.btservice.model.btpacket.BTPacket
+    public byte[] c() {
+        return a(new byte[0]);
+    }
+}

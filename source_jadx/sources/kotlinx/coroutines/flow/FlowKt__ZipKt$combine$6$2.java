@@ -1,0 +1,66 @@
+package kotlinx.coroutines.flow;
+
+import kotlin.Metadata;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+
+/* compiled from: com.odcpe.connect */
+@gi.d(c = "kotlinx.coroutines.flow.FlowKt__ZipKt$combine$6$2", f = "Zip.kt", l = {292, 292}, m = "invokeSuspend")
+@Metadata(d1 = {"\u0000\u0016\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0011\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0006\u001a\u00020\u0005\"\u0006\b\u0000\u0010\u0000\u0018\u0001\"\u0004\b\u0001\u0010\u0001*\b\u0012\u0004\u0012\u00028\u00010\u00022\f\u0010\u0004\u001a\b\u0012\u0004\u0012\u00028\u00000\u0003H\u008a@¢\u0006\u0004\b\u0006\u0010\u0007"}, d2 = {"T", "R", "Lkotlinx/coroutines/flow/c;", "", "it", "Ldi/k;", "<anonymous>", "(Lkotlinx/coroutines/flow/c;Lkotlin/Array;)V"}, k = 3, mv = {1, 8, 0})
+/* loaded from: classes3.dex */
+public final class FlowKt__ZipKt$combine$6$2 extends SuspendLambda implements ni.p {
+    final /* synthetic */ ni.o $transform;
+    private /* synthetic */ Object L$0;
+    /* synthetic */ Object L$1;
+    int label;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public FlowKt__ZipKt$combine$6$2(ni.o oVar, kotlin.coroutines.c cVar) {
+        super(3, cVar);
+        this.$transform = oVar;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        c cVar;
+        Object c10 = kotlin.coroutines.intrinsics.a.c();
+        int i10 = this.label;
+        if (i10 == 0) {
+            kotlin.b.b(obj);
+            cVar = (c) this.L$0;
+            Object[] objArr = (Object[]) this.L$1;
+            ni.o oVar = this.$transform;
+            this.L$0 = cVar;
+            this.label = 1;
+            obj = oVar.o(objArr, this);
+            if (obj == c10) {
+                return c10;
+            }
+        } else {
+            if (i10 != 1) {
+                if (i10 != 2) {
+                    throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+                }
+                kotlin.b.b(obj);
+                return di.k.f20160a;
+            }
+            cVar = (c) this.L$0;
+            kotlin.b.b(obj);
+        }
+        this.L$0 = null;
+        this.label = 2;
+        if (cVar.a(obj, this) == c10) {
+            return c10;
+        }
+        return di.k.f20160a;
+    }
+
+    @Override // ni.p
+    /* renamed from: t, reason: merged with bridge method [inline-methods] */
+    public final Object d(c cVar, Object[] objArr, kotlin.coroutines.c cVar2) {
+        kotlin.jvm.internal.k.n();
+        FlowKt__ZipKt$combine$6$2 flowKt__ZipKt$combine$6$2 = new FlowKt__ZipKt$combine$6$2(this.$transform, cVar2);
+        flowKt__ZipKt$combine$6$2.L$0 = cVar;
+        flowKt__ZipKt$combine$6$2.L$1 = objArr;
+        return flowKt__ZipKt$combine$6$2.invokeSuspend(di.k.f20160a);
+    }
+}

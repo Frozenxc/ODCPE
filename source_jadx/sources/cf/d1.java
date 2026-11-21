@@ -1,0 +1,15 @@
+package cf;
+
+import java.util.HashMap;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public abstract class d1 {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final HashMap f10855a = kotlin.collections.f0.l(di.g.a("i_0", "{textAlign.start}"), di.g.a("i_1", "{primaryGrey60}"), di.g.a("i_2", "{bodyS}"), di.g.a("i_3", "{bodyS}"), di.g.a("i_4", "{bodyS}"), di.g.a("i_5", "{bodyS}"), di.g.a("i_6", "{bodyS}"), di.g.a("i_7", "{primaryGrey100}"), di.g.a("i_8", "{bodyS}"), di.g.a("i_9", "{bodyS}"), di.g.a("i_10", "{bodyS}"), di.g.a("i_11", "{bodyS}"), di.g.a("i_12", "{bodyS}"), di.g.a("i_13", "{primaryGrey100}"), di.g.a("i_14", "{size.max}"), di.g.a("i_15", "{opacity.disabled}"), di.g.a("i_16", "{textAlign.center}"), di.g.a("i_17", "{textAlign.end}"), di.g.a("i_18", "{textAlign.justify}"), di.g.a("i_19", "{bodyL}"), di.g.a("i_20", "{bodyL}"), di.g.a("i_21", "{bodyL}"), di.g.a("i_22", "{bodyL}"), di.g.a("i_23", "{bodyL}"), di.g.a("i_24", "{bodyL}"), di.g.a("i_25", "{bodyL}"), di.g.a("i_26", "{bodyL}"), di.g.a("i_27", "{primary80}"), di.g.a("i_28", "{primary70}"), di.g.a("i_29", "{primary60}"), di.g.a("i_30", "{primary50}"), di.g.a("i_31", "{primary40}"), di.g.a("i_32", "{primary30}"), di.g.a("i_33", "{primary20}"), di.g.a("i_34", "{primaryInverse}"), di.g.a("i_35", "{primaryBackground}"), di.g.a("i_36", "{primaryGrey100}"), di.g.a("i_37", "{primaryGrey80}"), di.g.a("i_38", "{primaryGrey60}"), di.g.a("i_39", "{primaryGrey40}"), di.g.a("i_40", "{primaryGrey20}"), di.g.a("i_41", "{secondary80}"), di.g.a("i_42", "{secondary70}"), di.g.a("i_43", "{secondary60}"), di.g.a("i_44", "{secondary50}"), di.g.a("i_45", "{secondary40}"), di.g.a("i_46", "{secondary30}"), di.g.a("i_47", "{secondary20}"), di.g.a("i_48", "{secondaryInverse}"), di.g.a("i_49", "{secondaryBackground}"), di.g.a("i_50", "{secondaryGrey100}"), di.g.a("i_51", "{secondaryGrey80}"), di.g.a("i_52", "{secondaryGrey60}"), di.g.a("i_53", "{secondaryGrey40}"), di.g.a("i_54", "{secondaryGrey20}"), di.g.a("i_55", "{sparkle80}"), di.g.a("i_56", "{sparkle70}"), di.g.a("i_57", "{sparkle60}"), di.g.a("i_58", "{sparkle50}"), di.g.a("i_59", "{sparkle40}"), di.g.a("i_60", "{sparkle30}"), di.g.a("i_61", "{sparkle20}"), di.g.a("i_62", "{sparkleInverse}"), di.g.a("i_63", "{sparkleBackground}"), di.g.a("i_64", "{sparkleGrey100}"), di.g.a("i_65", "{sparkleGrey80}"), di.g.a("i_66", "{sparkleGrey60}"), di.g.a("i_67", "{sparkleGrey40}"), di.g.a("i_68", "{sparkleGrey20}"), di.g.a("i_69", "{feedbackError80}"), di.g.a("i_70", "{feedbackError50}"), di.g.a("i_71", "{feedbackError20}"), di.g.a("i_72", "{feedbackWarning80}"), di.g.a("i_73", "{feedbackWarning50}"), di.g.a("i_74", "{feedbackWarning20}"), di.g.a("i_75", "{feedbackSuccess80}"), di.g.a("i_76", "{feedbackSuccess50}"), di.g.a("i_77", "{feedbackSuccess20}"), di.g.a("i_78", "{global.white}"), di.g.a("i_79", "{global.black}"), di.g.a("i_80", "{global.transparent}"));
+
+    public static final HashMap a() {
+        return f10855a;
+    }
+}

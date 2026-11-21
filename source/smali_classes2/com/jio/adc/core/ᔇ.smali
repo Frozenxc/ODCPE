@@ -507,7 +507,7 @@
         0x571491bb
         -0x32722df5
         -0x4be98efc
-        0x4dddf9bb    # 4.65516384E8f
+        0x4dddf9bb    # 4.6551638E8f
         0x41e7a052
     .end array-data
 .end method

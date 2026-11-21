@@ -49,9 +49,9 @@
     <integer name="mtrl_card_anim_delay_ms">75</integer>
     <integer name="mtrl_card_anim_duration_ms">120</integer>
     <integer name="mtrl_chip_anim_duration">100</integer>
-    <integer name="mtrl_switch_thumb_post_morphing_duration">@integer/m3_sys_motion_duration_short3</integer>
-    <integer name="mtrl_switch_thumb_pre_morphing_duration">@integer/m3_sys_motion_duration_short2</integer>
-    <integer name="mtrl_switch_thumb_pressed_duration">@integer/m3_sys_motion_duration_short2</integer>
+    <item type="integer" name="mtrl_switch_thumb_post_morphing_duration">@integer/m3_sys_motion_duration_short3</item>
+    <item type="integer" name="mtrl_switch_thumb_pre_morphing_duration">@integer/m3_sys_motion_duration_short2</item>
+    <item type="integer" name="mtrl_switch_thumb_pressed_duration">@integer/m3_sys_motion_duration_short2</item>
     <integer name="mtrl_switch_thumb_viewport_center_coordinate">16</integer>
     <integer name="mtrl_switch_thumb_viewport_size">32</integer>
     <integer name="mtrl_switch_track_viewport_height">32</integer>

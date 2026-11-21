@@ -2905,16 +2905,6 @@
     <public type="color" name="m3_dark_primary_text_disable_only" id="0x7f060555" />
     <public type="color" name="m3_default_color_primary_text" id="0x7f060556" />
     <public type="color" name="m3_default_color_secondary_text" id="0x7f060557" />
-    <public type="color" name="m3_dynamic_dark_default_color_primary_text" id="0x7f060558" />
-    <public type="color" name="m3_dynamic_dark_default_color_secondary_text" id="0x7f060559" />
-    <public type="color" name="m3_dynamic_dark_highlighted_text" id="0x7f06055a" />
-    <public type="color" name="m3_dynamic_dark_hint_foreground" id="0x7f06055b" />
-    <public type="color" name="m3_dynamic_dark_primary_text_disable_only" id="0x7f06055c" />
-    <public type="color" name="m3_dynamic_default_color_primary_text" id="0x7f06055d" />
-    <public type="color" name="m3_dynamic_default_color_secondary_text" id="0x7f06055e" />
-    <public type="color" name="m3_dynamic_highlighted_text" id="0x7f06055f" />
-    <public type="color" name="m3_dynamic_hint_foreground" id="0x7f060560" />
-    <public type="color" name="m3_dynamic_primary_text_disable_only" id="0x7f060561" />
     <public type="color" name="m3_efab_ripple_color_selector" id="0x7f060562" />
     <public type="color" name="m3_fab_efab_background_color_selector" id="0x7f060564" />
     <public type="color" name="m3_fab_efab_foreground_color_selector" id="0x7f060565" />
@@ -2936,49 +2926,6 @@
     <public type="color" name="m3_primary_text_disable_only" id="0x7f060576" />
     <public type="color" name="m3_radiobutton_button_tint" id="0x7f060577" />
     <public type="color" name="m3_radiobutton_ripple_tint" id="0x7f060578" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral10" id="0x7f06057b" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral20" id="0x7f06057f" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral90" id="0x7f06058b" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral95" id="0x7f06058e" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant10" id="0x7f060593" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant100" id="0x7f060594" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant12" id="0x7f060595" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant17" id="0x7f060596" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant22" id="0x7f060598" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant24" id="0x7f060599" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant30" id="0x7f06059a" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant4" id="0x7f06059b" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant50" id="0x7f06059d" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant6" id="0x7f06059e" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant60" id="0x7f06059f" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant80" id="0x7f0605a1" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant87" id="0x7f0605a2" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant90" id="0x7f0605a3" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant92" id="0x7f0605a4" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant94" id="0x7f0605a5" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant96" id="0x7f0605a7" />
-    <public type="color" name="m3_ref_palette_dynamic_neutral_variant98" id="0x7f0605a8" />
-    <public type="color" name="m3_ref_palette_dynamic_primary10" id="0x7f0605ab" />
-    <public type="color" name="m3_ref_palette_dynamic_primary100" id="0x7f0605ac" />
-    <public type="color" name="m3_ref_palette_dynamic_primary20" id="0x7f0605ad" />
-    <public type="color" name="m3_ref_palette_dynamic_primary30" id="0x7f0605ae" />
-    <public type="color" name="m3_ref_palette_dynamic_primary40" id="0x7f0605af" />
-    <public type="color" name="m3_ref_palette_dynamic_primary80" id="0x7f0605b3" />
-    <public type="color" name="m3_ref_palette_dynamic_primary90" id="0x7f0605b4" />
-    <public type="color" name="m3_ref_palette_dynamic_secondary10" id="0x7f0605b8" />
-    <public type="color" name="m3_ref_palette_dynamic_secondary100" id="0x7f0605b9" />
-    <public type="color" name="m3_ref_palette_dynamic_secondary20" id="0x7f0605ba" />
-    <public type="color" name="m3_ref_palette_dynamic_secondary30" id="0x7f0605bb" />
-    <public type="color" name="m3_ref_palette_dynamic_secondary40" id="0x7f0605bc" />
-    <public type="color" name="m3_ref_palette_dynamic_secondary80" id="0x7f0605c0" />
-    <public type="color" name="m3_ref_palette_dynamic_secondary90" id="0x7f0605c1" />
-    <public type="color" name="m3_ref_palette_dynamic_tertiary10" id="0x7f0605c5" />
-    <public type="color" name="m3_ref_palette_dynamic_tertiary100" id="0x7f0605c6" />
-    <public type="color" name="m3_ref_palette_dynamic_tertiary20" id="0x7f0605c7" />
-    <public type="color" name="m3_ref_palette_dynamic_tertiary30" id="0x7f0605c8" />
-    <public type="color" name="m3_ref_palette_dynamic_tertiary40" id="0x7f0605c9" />
-    <public type="color" name="m3_ref_palette_dynamic_tertiary80" id="0x7f0605cd" />
-    <public type="color" name="m3_ref_palette_dynamic_tertiary90" id="0x7f0605ce" />
     <public type="color" name="m3_ref_palette_error10" id="0x7f0605d2" />
     <public type="color" name="m3_ref_palette_error100" id="0x7f0605d3" />
     <public type="color" name="m3_ref_palette_error20" id="0x7f0605d4" />
@@ -3069,86 +3016,6 @@
     <public type="color" name="m3_sys_color_dark_surface_variant" id="0x7f060655" />
     <public type="color" name="m3_sys_color_dark_tertiary" id="0x7f060656" />
     <public type="color" name="m3_sys_color_dark_tertiary_container" id="0x7f060657" />
-    <public type="color" name="m3_sys_color_dynamic_dark_background" id="0x7f060658" />
-    <public type="color" name="m3_sys_color_dynamic_dark_error" id="0x7f060659" />
-    <public type="color" name="m3_sys_color_dynamic_dark_error_container" id="0x7f06065a" />
-    <public type="color" name="m3_sys_color_dynamic_dark_inverse_on_surface" id="0x7f06065b" />
-    <public type="color" name="m3_sys_color_dynamic_dark_inverse_primary" id="0x7f06065c" />
-    <public type="color" name="m3_sys_color_dynamic_dark_inverse_surface" id="0x7f06065d" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_background" id="0x7f06065e" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_error" id="0x7f06065f" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_error_container" id="0x7f060660" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_primary" id="0x7f060661" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_primary_container" id="0x7f060662" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_secondary" id="0x7f060663" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_secondary_container" id="0x7f060664" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_surface" id="0x7f060665" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_surface_variant" id="0x7f060666" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_tertiary" id="0x7f060667" />
-    <public type="color" name="m3_sys_color_dynamic_dark_on_tertiary_container" id="0x7f060668" />
-    <public type="color" name="m3_sys_color_dynamic_dark_outline" id="0x7f060669" />
-    <public type="color" name="m3_sys_color_dynamic_dark_outline_variant" id="0x7f06066a" />
-    <public type="color" name="m3_sys_color_dynamic_dark_primary" id="0x7f06066b" />
-    <public type="color" name="m3_sys_color_dynamic_dark_primary_container" id="0x7f06066c" />
-    <public type="color" name="m3_sys_color_dynamic_dark_secondary" id="0x7f06066d" />
-    <public type="color" name="m3_sys_color_dynamic_dark_secondary_container" id="0x7f06066e" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface" id="0x7f06066f" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_bright" id="0x7f060670" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_container" id="0x7f060671" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_high" id="0x7f060672" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_highest" id="0x7f060673" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_low" id="0x7f060674" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_lowest" id="0x7f060675" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_dim" id="0x7f060676" />
-    <public type="color" name="m3_sys_color_dynamic_dark_surface_variant" id="0x7f060677" />
-    <public type="color" name="m3_sys_color_dynamic_dark_tertiary" id="0x7f060678" />
-    <public type="color" name="m3_sys_color_dynamic_dark_tertiary_container" id="0x7f060679" />
-    <public type="color" name="m3_sys_color_dynamic_light_background" id="0x7f06067a" />
-    <public type="color" name="m3_sys_color_dynamic_light_error" id="0x7f06067b" />
-    <public type="color" name="m3_sys_color_dynamic_light_error_container" id="0x7f06067c" />
-    <public type="color" name="m3_sys_color_dynamic_light_inverse_on_surface" id="0x7f06067d" />
-    <public type="color" name="m3_sys_color_dynamic_light_inverse_primary" id="0x7f06067e" />
-    <public type="color" name="m3_sys_color_dynamic_light_inverse_surface" id="0x7f06067f" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_background" id="0x7f060680" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_error" id="0x7f060681" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_error_container" id="0x7f060682" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_primary" id="0x7f060683" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_primary_container" id="0x7f060684" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_secondary" id="0x7f060685" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_secondary_container" id="0x7f060686" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_surface" id="0x7f060687" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_surface_variant" id="0x7f060688" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_tertiary" id="0x7f060689" />
-    <public type="color" name="m3_sys_color_dynamic_light_on_tertiary_container" id="0x7f06068a" />
-    <public type="color" name="m3_sys_color_dynamic_light_outline" id="0x7f06068b" />
-    <public type="color" name="m3_sys_color_dynamic_light_outline_variant" id="0x7f06068c" />
-    <public type="color" name="m3_sys_color_dynamic_light_primary" id="0x7f06068d" />
-    <public type="color" name="m3_sys_color_dynamic_light_primary_container" id="0x7f06068e" />
-    <public type="color" name="m3_sys_color_dynamic_light_secondary" id="0x7f06068f" />
-    <public type="color" name="m3_sys_color_dynamic_light_secondary_container" id="0x7f060690" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface" id="0x7f060691" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_bright" id="0x7f060692" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_container" id="0x7f060693" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_container_high" id="0x7f060694" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_container_highest" id="0x7f060695" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_container_low" id="0x7f060696" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_container_lowest" id="0x7f060697" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_dim" id="0x7f060698" />
-    <public type="color" name="m3_sys_color_dynamic_light_surface_variant" id="0x7f060699" />
-    <public type="color" name="m3_sys_color_dynamic_light_tertiary" id="0x7f06069a" />
-    <public type="color" name="m3_sys_color_dynamic_light_tertiary_container" id="0x7f06069b" />
-    <public type="color" name="m3_sys_color_dynamic_on_primary_fixed" id="0x7f06069c" />
-    <public type="color" name="m3_sys_color_dynamic_on_primary_fixed_variant" id="0x7f06069d" />
-    <public type="color" name="m3_sys_color_dynamic_on_secondary_fixed" id="0x7f06069e" />
-    <public type="color" name="m3_sys_color_dynamic_on_secondary_fixed_variant" id="0x7f06069f" />
-    <public type="color" name="m3_sys_color_dynamic_on_tertiary_fixed" id="0x7f0606a0" />
-    <public type="color" name="m3_sys_color_dynamic_on_tertiary_fixed_variant" id="0x7f0606a1" />
-    <public type="color" name="m3_sys_color_dynamic_primary_fixed" id="0x7f0606a2" />
-    <public type="color" name="m3_sys_color_dynamic_primary_fixed_dim" id="0x7f0606a3" />
-    <public type="color" name="m3_sys_color_dynamic_secondary_fixed" id="0x7f0606a4" />
-    <public type="color" name="m3_sys_color_dynamic_secondary_fixed_dim" id="0x7f0606a5" />
-    <public type="color" name="m3_sys_color_dynamic_tertiary_fixed" id="0x7f0606a6" />
-    <public type="color" name="m3_sys_color_dynamic_tertiary_fixed_dim" id="0x7f0606a7" />
     <public type="color" name="m3_sys_color_light_background" id="0x7f0606a8" />
     <public type="color" name="m3_sys_color_light_error" id="0x7f0606a9" />
     <public type="color" name="m3_sys_color_light_error_container" id="0x7f0606aa" />
@@ -3223,14 +3090,6 @@
     <public type="color" name="material_deep_teal_200" id="0x7f0606f3" />
     <public type="color" name="material_deep_teal_500" id="0x7f0606f4" />
     <public type="color" name="material_divider_color" id="0x7f0606f5" />
-    <public type="color" name="material_dynamic_color_dark_error" id="0x7f0606f6" />
-    <public type="color" name="material_dynamic_color_dark_error_container" id="0x7f0606f7" />
-    <public type="color" name="material_dynamic_color_dark_on_error" id="0x7f0606f8" />
-    <public type="color" name="material_dynamic_color_dark_on_error_container" id="0x7f0606f9" />
-    <public type="color" name="material_dynamic_color_light_error" id="0x7f0606fa" />
-    <public type="color" name="material_dynamic_color_light_error_container" id="0x7f0606fb" />
-    <public type="color" name="material_dynamic_color_light_on_error" id="0x7f0606fc" />
-    <public type="color" name="material_dynamic_color_light_on_error_container" id="0x7f0606fd" />
     <public type="color" name="material_grey_100" id="0x7f06073f" />
     <public type="color" name="material_grey_50" id="0x7f060741" />
     <public type="color" name="material_grey_600" id="0x7f060742" />
@@ -3421,6 +3280,147 @@
     <public type="color" name="zxing_transparent" id="0x7f06084f" />
     <public type="color" name="zxing_viewfinder_laser" id="0x7f060850" />
     <public type="color" name="zxing_viewfinder_mask" id="0x7f060851" />
+    <public type="color" name="m3_dynamic_dark_default_color_primary_text" id="0x7f060558" />
+    <public type="color" name="m3_dynamic_dark_default_color_secondary_text" id="0x7f060559" />
+    <public type="color" name="m3_dynamic_dark_highlighted_text" id="0x7f06055a" />
+    <public type="color" name="m3_dynamic_dark_hint_foreground" id="0x7f06055b" />
+    <public type="color" name="m3_dynamic_dark_primary_text_disable_only" id="0x7f06055c" />
+    <public type="color" name="m3_dynamic_default_color_primary_text" id="0x7f06055d" />
+    <public type="color" name="m3_dynamic_default_color_secondary_text" id="0x7f06055e" />
+    <public type="color" name="m3_dynamic_highlighted_text" id="0x7f06055f" />
+    <public type="color" name="m3_dynamic_hint_foreground" id="0x7f060560" />
+    <public type="color" name="m3_dynamic_primary_text_disable_only" id="0x7f060561" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral10" id="0x7f06057b" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral20" id="0x7f06057f" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral90" id="0x7f06058b" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral95" id="0x7f06058e" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant10" id="0x7f060593" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant100" id="0x7f060594" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant12" id="0x7f060595" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant17" id="0x7f060596" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant22" id="0x7f060598" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant24" id="0x7f060599" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant30" id="0x7f06059a" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant4" id="0x7f06059b" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant50" id="0x7f06059d" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant6" id="0x7f06059e" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant60" id="0x7f06059f" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant80" id="0x7f0605a1" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant87" id="0x7f0605a2" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant90" id="0x7f0605a3" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant92" id="0x7f0605a4" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant94" id="0x7f0605a5" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant96" id="0x7f0605a7" />
+    <public type="color" name="m3_ref_palette_dynamic_neutral_variant98" id="0x7f0605a8" />
+    <public type="color" name="m3_ref_palette_dynamic_primary10" id="0x7f0605ab" />
+    <public type="color" name="m3_ref_palette_dynamic_primary100" id="0x7f0605ac" />
+    <public type="color" name="m3_ref_palette_dynamic_primary20" id="0x7f0605ad" />
+    <public type="color" name="m3_ref_palette_dynamic_primary30" id="0x7f0605ae" />
+    <public type="color" name="m3_ref_palette_dynamic_primary40" id="0x7f0605af" />
+    <public type="color" name="m3_ref_palette_dynamic_primary80" id="0x7f0605b3" />
+    <public type="color" name="m3_ref_palette_dynamic_primary90" id="0x7f0605b4" />
+    <public type="color" name="m3_ref_palette_dynamic_secondary10" id="0x7f0605b8" />
+    <public type="color" name="m3_ref_palette_dynamic_secondary100" id="0x7f0605b9" />
+    <public type="color" name="m3_ref_palette_dynamic_secondary20" id="0x7f0605ba" />
+    <public type="color" name="m3_ref_palette_dynamic_secondary30" id="0x7f0605bb" />
+    <public type="color" name="m3_ref_palette_dynamic_secondary40" id="0x7f0605bc" />
+    <public type="color" name="m3_ref_palette_dynamic_secondary80" id="0x7f0605c0" />
+    <public type="color" name="m3_ref_palette_dynamic_secondary90" id="0x7f0605c1" />
+    <public type="color" name="m3_ref_palette_dynamic_tertiary10" id="0x7f0605c5" />
+    <public type="color" name="m3_ref_palette_dynamic_tertiary100" id="0x7f0605c6" />
+    <public type="color" name="m3_ref_palette_dynamic_tertiary20" id="0x7f0605c7" />
+    <public type="color" name="m3_ref_palette_dynamic_tertiary30" id="0x7f0605c8" />
+    <public type="color" name="m3_ref_palette_dynamic_tertiary40" id="0x7f0605c9" />
+    <public type="color" name="m3_ref_palette_dynamic_tertiary80" id="0x7f0605cd" />
+    <public type="color" name="m3_ref_palette_dynamic_tertiary90" id="0x7f0605ce" />
+    <public type="color" name="m3_sys_color_dynamic_dark_background" id="0x7f060658" />
+    <public type="color" name="m3_sys_color_dynamic_dark_inverse_on_surface" id="0x7f06065b" />
+    <public type="color" name="m3_sys_color_dynamic_dark_inverse_primary" id="0x7f06065c" />
+    <public type="color" name="m3_sys_color_dynamic_dark_inverse_surface" id="0x7f06065d" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_background" id="0x7f06065e" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_primary" id="0x7f060661" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_primary_container" id="0x7f060662" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_secondary" id="0x7f060663" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_secondary_container" id="0x7f060664" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_surface" id="0x7f060665" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_surface_variant" id="0x7f060666" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_tertiary" id="0x7f060667" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_tertiary_container" id="0x7f060668" />
+    <public type="color" name="m3_sys_color_dynamic_dark_outline" id="0x7f060669" />
+    <public type="color" name="m3_sys_color_dynamic_dark_outline_variant" id="0x7f06066a" />
+    <public type="color" name="m3_sys_color_dynamic_dark_primary" id="0x7f06066b" />
+    <public type="color" name="m3_sys_color_dynamic_dark_primary_container" id="0x7f06066c" />
+    <public type="color" name="m3_sys_color_dynamic_dark_secondary" id="0x7f06066d" />
+    <public type="color" name="m3_sys_color_dynamic_dark_secondary_container" id="0x7f06066e" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface" id="0x7f06066f" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_bright" id="0x7f060670" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_container" id="0x7f060671" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_high" id="0x7f060672" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_highest" id="0x7f060673" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_low" id="0x7f060674" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_container_lowest" id="0x7f060675" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_dim" id="0x7f060676" />
+    <public type="color" name="m3_sys_color_dynamic_dark_surface_variant" id="0x7f060677" />
+    <public type="color" name="m3_sys_color_dynamic_dark_tertiary" id="0x7f060678" />
+    <public type="color" name="m3_sys_color_dynamic_dark_tertiary_container" id="0x7f060679" />
+    <public type="color" name="m3_sys_color_dynamic_light_background" id="0x7f06067a" />
+    <public type="color" name="m3_sys_color_dynamic_light_inverse_on_surface" id="0x7f06067d" />
+    <public type="color" name="m3_sys_color_dynamic_light_inverse_primary" id="0x7f06067e" />
+    <public type="color" name="m3_sys_color_dynamic_light_inverse_surface" id="0x7f06067f" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_background" id="0x7f060680" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_primary" id="0x7f060683" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_primary_container" id="0x7f060684" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_secondary" id="0x7f060685" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_secondary_container" id="0x7f060686" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_surface" id="0x7f060687" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_surface_variant" id="0x7f060688" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_tertiary" id="0x7f060689" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_tertiary_container" id="0x7f06068a" />
+    <public type="color" name="m3_sys_color_dynamic_light_outline" id="0x7f06068b" />
+    <public type="color" name="m3_sys_color_dynamic_light_outline_variant" id="0x7f06068c" />
+    <public type="color" name="m3_sys_color_dynamic_light_primary" id="0x7f06068d" />
+    <public type="color" name="m3_sys_color_dynamic_light_primary_container" id="0x7f06068e" />
+    <public type="color" name="m3_sys_color_dynamic_light_secondary" id="0x7f06068f" />
+    <public type="color" name="m3_sys_color_dynamic_light_secondary_container" id="0x7f060690" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface" id="0x7f060691" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_bright" id="0x7f060692" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_container" id="0x7f060693" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_container_high" id="0x7f060694" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_container_highest" id="0x7f060695" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_container_low" id="0x7f060696" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_container_lowest" id="0x7f060697" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_dim" id="0x7f060698" />
+    <public type="color" name="m3_sys_color_dynamic_light_surface_variant" id="0x7f060699" />
+    <public type="color" name="m3_sys_color_dynamic_light_tertiary" id="0x7f06069a" />
+    <public type="color" name="m3_sys_color_dynamic_light_tertiary_container" id="0x7f06069b" />
+    <public type="color" name="m3_sys_color_dynamic_on_primary_fixed" id="0x7f06069c" />
+    <public type="color" name="m3_sys_color_dynamic_on_primary_fixed_variant" id="0x7f06069d" />
+    <public type="color" name="m3_sys_color_dynamic_on_secondary_fixed" id="0x7f06069e" />
+    <public type="color" name="m3_sys_color_dynamic_on_secondary_fixed_variant" id="0x7f06069f" />
+    <public type="color" name="m3_sys_color_dynamic_on_tertiary_fixed" id="0x7f0606a0" />
+    <public type="color" name="m3_sys_color_dynamic_on_tertiary_fixed_variant" id="0x7f0606a1" />
+    <public type="color" name="m3_sys_color_dynamic_primary_fixed" id="0x7f0606a2" />
+    <public type="color" name="m3_sys_color_dynamic_primary_fixed_dim" id="0x7f0606a3" />
+    <public type="color" name="m3_sys_color_dynamic_secondary_fixed" id="0x7f0606a4" />
+    <public type="color" name="m3_sys_color_dynamic_secondary_fixed_dim" id="0x7f0606a5" />
+    <public type="color" name="m3_sys_color_dynamic_tertiary_fixed" id="0x7f0606a6" />
+    <public type="color" name="m3_sys_color_dynamic_tertiary_fixed_dim" id="0x7f0606a7" />
+    <public type="color" name="material_dynamic_color_dark_error" id="0x7f0606f6" />
+    <public type="color" name="material_dynamic_color_dark_error_container" id="0x7f0606f7" />
+    <public type="color" name="material_dynamic_color_dark_on_error" id="0x7f0606f8" />
+    <public type="color" name="material_dynamic_color_dark_on_error_container" id="0x7f0606f9" />
+    <public type="color" name="material_dynamic_color_light_error" id="0x7f0606fa" />
+    <public type="color" name="material_dynamic_color_light_error_container" id="0x7f0606fb" />
+    <public type="color" name="material_dynamic_color_light_on_error" id="0x7f0606fc" />
+    <public type="color" name="material_dynamic_color_light_on_error_container" id="0x7f0606fd" />
+    <public type="color" name="m3_sys_color_dynamic_dark_error" id="0x7f060659" />
+    <public type="color" name="m3_sys_color_dynamic_dark_error_container" id="0x7f06065a" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_error" id="0x7f06065f" />
+    <public type="color" name="m3_sys_color_dynamic_dark_on_error_container" id="0x7f060660" />
+    <public type="color" name="m3_sys_color_dynamic_light_error" id="0x7f06067b" />
+    <public type="color" name="m3_sys_color_dynamic_light_error_container" id="0x7f06067c" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_error" id="0x7f060681" />
+    <public type="color" name="m3_sys_color_dynamic_light_on_error_container" id="0x7f060682" />
     <public type="dimen" name="DeviceCard_height" id="0x7f070000" />
     <public type="dimen" name="Searching_textSize" id="0x7f070002" />
     <public type="dimen" name="_10dp" id="0x7f070004" />
@@ -4387,12 +4387,10 @@
     <public type="drawable" name="abc_btn_check_material" id="0x7f08002e" />
     <public type="drawable" name="abc_btn_check_material_anim" id="0x7f08002f" />
     <public type="drawable" name="logo" id="0x7f080030" />
-    <public type="drawable" name="logo_foreground" id="0x7f080031" />
     <public type="drawable" name="abc_btn_colored_material" id="0x7f080032" />
     <public type="drawable" name="abc_btn_default_mtrl_shape" id="0x7f080033" />
     <public type="drawable" name="abc_btn_radio_material" id="0x7f080034" />
     <public type="drawable" name="abc_btn_radio_material_anim" id="0x7f080035" />
-    <public type="drawable" name="logo_round" id="0x7f080036" />
     <public type="drawable" name="abc_cab_background_internal_bg" id="0x7f08003a" />
     <public type="drawable" name="abc_cab_background_top_material" id="0x7f08003b" />
     <public type="drawable" name="abc_control_background_material" id="0x7f08003d" />
@@ -4460,7 +4458,6 @@
     <public type="drawable" name="circle_shape_green" id="0x7f080095" />
     <public type="drawable" name="circle_shape_grey" id="0x7f080096" />
     <public type="drawable" name="circle_shape_stepper_error" id="0x7f080097" />
-    <public type="drawable" name="close" id="0x7f080098" />
     <public type="drawable" name="common_google_signin_btn_icon_dark" id="0x7f08009a" />
     <public type="drawable" name="common_google_signin_btn_icon_dark_focused" id="0x7f08009b" />
     <public type="drawable" name="common_google_signin_btn_icon_dark_normal" id="0x7f08009c" />
@@ -6198,7 +6195,6 @@
     <public type="drawable" name="notification_bg" id="0x7f08077b" />
     <public type="drawable" name="notification_bg_low" id="0x7f08077c" />
     <public type="drawable" name="notification_icon_background" id="0x7f080781" />
-    <public type="drawable" name="notification_oversize_large_icon_bg" id="0x7f080782" />
     <public type="drawable" name="notification_template_icon_bg" id="0x7f080783" />
     <public type="drawable" name="notification_template_icon_low_bg" id="0x7f080784" />
     <public type="drawable" name="notification_tile_bg" id="0x7f080785" />
@@ -6230,9 +6226,7 @@
     <public type="drawable" name="rf_poor_signal" id="0x7f0807a1" />
     <public type="drawable" name="rounded_corners_dialog" id="0x7f0807a2" />
     <public type="drawable" name="rounded_corners_shape" id="0x7f0807a3" />
-    <public type="drawable" name="rounded_done_btn" id="0x7f0807a4" />
     <public type="drawable" name="searching_remote" id="0x7f0807a5" />
-    <public type="drawable" name="show_password_selector" id="0x7f0807a6" />
     <public type="drawable" name="speedtest_clock" id="0x7f0807a7" />
     <public type="drawable" name="test_level_drawable" id="0x7f0807a8" />
     <public type="drawable" name="three_dots" id="0x7f0807a9" />
@@ -6241,6 +6235,12 @@
     <public type="drawable" name="tooltip_frame_light" id="0x7f0807ac" />
     <public type="drawable" name="white_back" id="0x7f0807ae" />
     <public type="drawable" name="white_rounded_corner" id="0x7f0807af" />
+    <public type="drawable" name="logo_foreground" id="0x7f080031" />
+    <public type="drawable" name="logo_round" id="0x7f080036" />
+    <public type="drawable" name="close" id="0x7f080098" />
+    <public type="drawable" name="notification_oversize_large_icon_bg" id="0x7f080782" />
+    <public type="drawable" name="rounded_done_btn" id="0x7f0807a4" />
+    <public type="drawable" name="show_password_selector" id="0x7f0807a6" />
     <public type="font" name="esim_jiotype_black" id="0x7f090000" />
     <public type="font" name="esim_jiotype_bold" id="0x7f090001" />
     <public type="font" name="esim_jiotype_light" id="0x7f090002" />
@@ -7611,6 +7611,8 @@
     <public type="id" name="swipe_refresh" id="0x7f0a0538" />
     <public type="id" name="tv_device_dbm" id="0x7f0a0539" />
     <public type="id" name="tv_device_distance" id="0x7f0a053a" />
+    <public type="id" name="btn_gui_enable" id="0x7f0a053b" />
+    <public type="id" name="btn_gui_status" id="0x7f0a053c" />
     <public type="integer" name="abc_config_activityDefaultDur" id="0x7f0b0000" />
     <public type="integer" name="abc_config_activityShortDur" id="0x7f0b0001" />
     <public type="integer" name="app_bar_elevation_anim_duration" id="0x7f0b0002" />
@@ -7827,7 +7829,6 @@
     <public type="layout" name="material_clock_display" id="0x7f0d008f" />
     <public type="layout" name="material_clock_display_divider" id="0x7f0d0090" />
     <public type="layout" name="material_clock_period_toggle" id="0x7f0d0091" />
-    <public type="layout" name="material_clock_period_toggle_land" id="0x7f0d0092" />
     <public type="layout" name="material_clockface_textview" id="0x7f0d0093" />
     <public type="layout" name="material_clockface_view" id="0x7f0d0094" />
     <public type="layout" name="material_radial_view_group" id="0x7f0d0095" />
@@ -7900,16 +7901,17 @@
     <public type="layout" name="select_dialog_singlechoice_material" id="0x7f0d00e0" />
     <public type="layout" name="set_ipv4_lan_configuration_timer" id="0x7f0d00e1" />
     <public type="layout" name="support_simple_spinner_dropdown_item" id="0x7f0d00e2" />
-    <public type="layout" name="tab_inapp_half_interstitial" id="0x7f0d00e3" />
-    <public type="layout" name="tab_inapp_half_interstitial_image" id="0x7f0d00e4" />
-    <public type="layout" name="tab_inapp_interstitial" id="0x7f0d00e5" />
-    <public type="layout" name="tab_inapp_interstitial_image" id="0x7f0d00e6" />
     <public type="layout" name="timer" id="0x7f0d00e7" />
     <public type="layout" name="timer_collapsed" id="0x7f0d00e8" />
     <public type="layout" name="toolbar_layout" id="0x7f0d00e9" />
     <public type="layout" name="zero_bezel" id="0x7f0d00ea" />
     <public type="layout" name="zxing_barcode_scanner" id="0x7f0d00eb" />
     <public type="layout" name="zxing_capture" id="0x7f0d00ec" />
+    <public type="layout" name="tab_inapp_half_interstitial" id="0x7f0d00e3" />
+    <public type="layout" name="tab_inapp_half_interstitial_image" id="0x7f0d00e4" />
+    <public type="layout" name="tab_inapp_interstitial" id="0x7f0d00e5" />
+    <public type="layout" name="tab_inapp_interstitial_image" id="0x7f0d00e6" />
+    <public type="layout" name="material_clock_period_toggle_land" id="0x7f0d0092" />
     <public type="mipmap" name="app_icon" id="0x7f0f0000" />
     <public type="mipmap" name="ic_launcher" id="0x7f0f0001" />
     <public type="mipmap" name="ic_launcher_foreground" id="0x7f0f0002" />
@@ -8110,7 +8112,6 @@
     <public type="string" name="enter_pass_code" id="0x7f1200c6" />
     <public type="string" name="error_a11y_label" id="0x7f1200c7" />
     <public type="string" name="error_icon_content_description" id="0x7f1200c8" />
-    <public type="string" name="error_mdns_response" id="0x7f1200c9" />
     <public type="string" name="esim_05_00" id="0x7f1200ca" />
     <public type="string" name="esim_5g_signal_status" id="0x7f1200cb" />
     <public type="string" name="esim_activate_outdoor_unit" id="0x7f1200ce" />
@@ -8902,7 +8903,6 @@
     <public type="string" name="microphone_permission_description" id="0x7f120569" />
     <public type="string" name="microphone_permission_title" id="0x7f12056a" />
     <public type="string" name="month_button" id="0x7f12056b" />
-    <public type="string" name="msg_invalidQR_ODU" id="0x7f12056c" />
     <public type="string" name="mtrl_badge_numberless_content_description" id="0x7f12056d" />
     <public type="string" name="mtrl_checkbox_button_icon_path_checked" id="0x7f12056e" />
     <public type="string" name="mtrl_checkbox_button_icon_path_group_name" id="0x7f12056f" />
@@ -8965,7 +8965,6 @@
     <public type="string" name="nav_app_bar_navigate_up_description" id="0x7f1205ac" />
     <public type="string" name="nav_app_bar_open_drawer_description" id="0x7f1205ad" />
     <public type="string" name="navigation_menu" id="0x7f1205ae" />
-    <public type="string" name="network_coverage" id="0x7f1205af" />
     <public type="string" name="next_btn_content_description" id="0x7f1205b0" />
     <public type="string" name="next_button" id="0x7f1205b1" />
     <public type="string" name="nine" id="0x7f1205b2" />
@@ -9052,7 +9051,6 @@
     <public type="string" name="seven" id="0x7f120607" />
     <public type="string" name="seventeen" id="0x7f120608" />
     <public type="string" name="side_sheet_accessibility_pane_title" id="0x7f120609" />
-    <public type="string" name="signal_page" id="0x7f12060b" />
     <public type="string" name="six" id="0x7f12060c" />
     <public type="string" name="sixteen" id="0x7f12060d" />
     <public type="string" name="smart_log" id="0x7f12060e" />
@@ -9121,6 +9119,10 @@
     <public type="string" name="zxing_button_ok" id="0x7f120651" />
     <public type="string" name="zxing_msg_camera_framework_bug" id="0x7f120652" />
     <public type="string" name="zxing_msg_default_status" id="0x7f120653" />
+    <public type="string" name="error_mdns_response" id="0x7f1200c9" />
+    <public type="string" name="msg_invalidQR_ODU" id="0x7f12056c" />
+    <public type="string" name="network_coverage" id="0x7f1205af" />
+    <public type="string" name="signal_page" id="0x7f12060b" />
     <public type="style" name="AlertDialog.AppCompat" id="0x7f130001" />
     <public type="style" name="AlertDialog.AppCompat.Light" id="0x7f130002" />
     <public type="style" name="AlertDialogStyle" id="0x7f130003" />
@@ -9217,7 +9219,6 @@
     <public type="style" name="Base.Theme.AppCompat.Light.Dialog.FixedSize" id="0x7f13005e" />
     <public type="style" name="Base.Theme.AppCompat.Light.Dialog.MinWidth" id="0x7f13005f" />
     <public type="style" name="Base.Theme.AppCompat.Light.DialogWhenLarge" id="0x7f130060" />
-    <public type="style" name="Base.Theme.JioHomeJFE" id="0x7f130061" />
     <public type="style" name="Base.Theme.Material3.Dark" id="0x7f130062" />
     <public type="style" name="Base.Theme.Material3.Dark.BottomSheetDialog" id="0x7f130063" />
     <public type="style" name="Base.Theme.Material3.Dark.Dialog" id="0x7f130064" />
@@ -9310,11 +9311,6 @@
     <public type="style" name="Base.V24.Theme.Material3.Dark.Dialog" id="0x7f1300bb" />
     <public type="style" name="Base.V24.Theme.Material3.Light" id="0x7f1300bc" />
     <public type="style" name="Base.V24.Theme.Material3.Light.Dialog" id="0x7f1300bd" />
-    <public type="style" name="Base.V26.Theme.AppCompat" id="0x7f1300be" />
-    <public type="style" name="Base.V26.Theme.AppCompat.Light" id="0x7f1300bf" />
-    <public type="style" name="Base.V26.Widget.AppCompat.Toolbar" id="0x7f1300c0" />
-    <public type="style" name="Base.V28.Theme.AppCompat" id="0x7f1300c1" />
-    <public type="style" name="Base.V28.Theme.AppCompat.Light" id="0x7f1300c2" />
     <public type="style" name="Base.V7.Theme.AppCompat" id="0x7f1300c3" />
     <public type="style" name="Base.V7.Theme.AppCompat.Dialog" id="0x7f1300c4" />
     <public type="style" name="Base.V7.Theme.AppCompat.Light" id="0x7f1300c5" />
@@ -9466,7 +9462,6 @@
     <public type="style" name="ESIM_Theme.AppCompat.Transparent.NoTitleBar" id="0x7f130159" />
     <public type="style" name="ESIM_error_appearance" id="0x7f13015a" />
     <public type="style" name="ESIM_hint_appearance" id="0x7f13015b" />
-    <public type="style" name="ESIM_jiocareTitle" id="0x7f13015c" />
     <public type="style" name="ESIM_next" id="0x7f13015d" />
     <public type="style" name="ESIM_retry" id="0x7f13015e" />
     <public type="style" name="ESIM_wificonnect" id="0x7f13015f" />
@@ -9500,8 +9495,6 @@
     <public type="style" name="Platform.ThemeOverlay.AppCompat.Light" id="0x7f130185" />
     <public type="style" name="Platform.V21.AppCompat" id="0x7f130186" />
     <public type="style" name="Platform.V21.AppCompat.Light" id="0x7f130187" />
-    <public type="style" name="Platform.V25.AppCompat" id="0x7f130188" />
-    <public type="style" name="Platform.V25.AppCompat.Light" id="0x7f130189" />
     <public type="style" name="Preference" id="0x7f13018b" />
     <public type="style" name="Preference.Category" id="0x7f13018c" />
     <public type="style" name="Preference.Category.Material" id="0x7f13018d" />
@@ -10180,6 +10173,15 @@
     <public type="style" name="bottomSheetStyleWrapper" id="0x7f1304e2" />
     <public type="style" name="hintTextAppearance" id="0x7f1304e3" />
     <public type="style" name="zxing_CaptureTheme" id="0x7f1304e5" />
+    <public type="style" name="Base.Theme.JioHomeJFE" id="0x7f130061" />
+    <public type="style" name="Platform.V25.AppCompat" id="0x7f130188" />
+    <public type="style" name="Platform.V25.AppCompat.Light" id="0x7f130189" />
+    <public type="style" name="Base.V26.Theme.AppCompat" id="0x7f1300be" />
+    <public type="style" name="Base.V26.Theme.AppCompat.Light" id="0x7f1300bf" />
+    <public type="style" name="Base.V26.Widget.AppCompat.Toolbar" id="0x7f1300c0" />
+    <public type="style" name="ESIM_jiocareTitle" id="0x7f13015c" />
+    <public type="style" name="Base.V28.Theme.AppCompat" id="0x7f1300c1" />
+    <public type="style" name="Base.V28.Theme.AppCompat.Light" id="0x7f1300c2" />
     <public type="xml" name="backup_rules" id="0x7f150000" />
     <public type="xml" name="clevertap_notification_file_paths" id="0x7f150001" />
     <public type="xml" name="data_extraction_rules" id="0x7f150002" />

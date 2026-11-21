@@ -199,7 +199,7 @@
         0x43cdddf1
         -0x4c4f1d5c
         -0x25b24fbe
-        -0x31f0e127    # -6.0029088E8f
+        -0x31f0e127    # -6.002909E8f
         0x72022994
         -0x40ccb9c6
         0x589f551e
@@ -552,7 +552,7 @@
 
     .line 18
     .line 19
-    const v1, 0x4ce9038e    # 1.22166384E8f
+    const v1, 0x4ce9038e    # 1.2216638E8f
 
     .line 20
     .line 21
@@ -2133,7 +2133,7 @@
     .line 283
     .line 284
     .line 285
-    const v3, 0x4ce9038e    # 1.22166384E8f
+    const v3, 0x4ce9038e    # 1.2216638E8f
 
     .line 286
     .line 287
@@ -2733,7 +2733,7 @@
         0x262c6d36
         0x52e8f9bd
         0x3cbdff40
-        0x4ccd58ab    # 1.07660632E8f
+        0x4ccd58ab    # 1.0766063E8f
         -0x6b56ec12    # -1.70725E-26f
     .end array-data
 .end method

@@ -520,7 +520,7 @@
 
     .line 229
     .line 230
-    const v4, 0x4d07a6d9    # 1.42241168E8f
+    const v4, 0x4d07a6d9    # 1.4224117E8f
 
     .line 231
     .line 232
@@ -808,7 +808,7 @@
 
     .line 371
     .line 372
-    const v4, 0x4d0831a7    # 1.42809712E8f
+    const v4, 0x4d0831a7    # 1.4280971E8f
 
     .line 373
     .line 374

@@ -1280,7 +1280,7 @@
     int-to-char v5, v3
 
     .line 60
-    const v3, 0x4d51a9a6    # 2.19847264E8f
+    const v3, 0x4d51a9a6    # 2.1984726E8f
 
     .line 61
     .line 62

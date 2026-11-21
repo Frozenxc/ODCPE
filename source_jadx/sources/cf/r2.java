@@ -1,0 +1,15 @@
+package cf;
+
+import java.util.HashMap;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public abstract class r2 {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final HashMap f10912a = kotlin.collections.f0.l(di.g.a("t_0", "{flexDirection.column}"), di.g.a("t_1", "{justifyContent.start}"), di.g.a("t_2", "{alignItems.start}"), di.g.a("t_3", "{xxs}"), di.g.a("t_4", "{size.max}"), di.g.a("t_5", "{flexDirection.stack}"), di.g.a("t_6", "{size.max}"), di.g.a("t_7", "{xxs}"), di.g.a("t_8", "{justifyContent.start}"), di.g.a("t_9", "{alignItems.end}"), di.g.a("t_10", "{flexDirection.row}"), di.g.a("t_11", "{justifyContent.start}"), di.g.a("t_12", "{size.max}"), di.g.a("t_13", "{alignItems.center}"), di.g.a("t_14", "{textAlign.start}"), di.g.a("t_15", "{primaryGrey60}"), di.g.a("t_16", "{bodyS}"), di.g.a("t_17", "{bodyS}"), di.g.a("t_18", "{bodyS}"), di.g.a("t_19", "{bodyS}"), di.g.a("t_20", "{bodyS}"), di.g.a("t_21", "{primaryGrey100}"), di.g.a("t_22", "{bodyS}"), di.g.a("t_23", "{bodyS}"), di.g.a("t_24", "{bodyS}"), di.g.a("t_25", "{bodyS}"), di.g.a("t_26", "{bodyS}"), di.g.a("t_27", "{primaryGrey100}"), di.g.a("t_28", "{primaryGrey100}"), di.g.a("t_29", "{size.max}"), di.g.a("t_30", "{primary50}"), di.g.a("t_31", "{primary60}"), di.g.a("t_32", "{primary60}"), di.g.a("t_33", "{flexDirection.column}"), di.g.a("t_34", "{size.max}"), di.g.a("t_35", "{alignItems.center}"), di.g.a("t_36", "{size.max}"), di.g.a("t_37", "{primaryGrey100}"), di.g.a("t_38", "{primary50}"), di.g.a("t_39", "{primary60}"), di.g.a("t_40", "{primary60}"), di.g.a("t_41", "{opacity.disabled}"), di.g.a("t_42", "{opacity.enabled}"), di.g.a("t_43", "{border_thin}"), di.g.a("t_44", "{primaryGrey60}"), di.g.a("t_45", "{custom_5}"), di.g.a("t_46", "{medium}"), di.g.a("t_47", "{custom_17}"), di.g.a("t_48", "{base}"), di.g.a("t_49", "{s}"), di.g.a("t_50", "{feedbackSuccess50}"), di.g.a("t_51", "{feedbackSuccess50}"), di.g.a("t_52", "{feedbackSuccess50}"), di.g.a("t_53", "{feedbackSuccess50}"), di.g.a("t_54", "{feedbackSuccess50}"), di.g.a("t_55", "{feedbackSuccess50}"), di.g.a("t_56", "{feedbackSuccess50}"), di.g.a("t_57", "{feedbackSuccess50}"), di.g.a("t_58", "{feedbackError50}"), di.g.a("t_59", "{feedbackError50}"), di.g.a("t_60", "{feedbackError50}"), di.g.a("t_61", "{feedbackError50}"), di.g.a("t_62", "{feedbackError50}"), di.g.a("t_63", "{feedbackError50}"), di.g.a("t_64", "{feedbackError50}"), di.g.a("t_65", "{feedbackError50}"), di.g.a("t_66", "{feedbackWarning50}"), di.g.a("t_67", "{feedbackWarning50}"), di.g.a("t_68", "{feedbackWarning50}"), di.g.a("t_69", "{feedbackWarning50}"), di.g.a("t_70", "{feedbackWarning50}"), di.g.a("t_71", "{feedbackWarning50}"), di.g.a("t_72", "{feedbackWarning50}"), di.g.a("t_73", "{feedbackWarning50}"), di.g.a("t_74", "{alignItems.start}"), di.g.a("t_75", "{primary60}"), di.g.a("t_76", "{primary60}"), di.g.a("t_77", "{primaryGrey40}"), di.g.a("t_78", "{primaryGrey60}"), di.g.a("t_79", "{primaryGrey80}"));
+
+    public static final HashMap a() {
+        return f10912a;
+    }
+}

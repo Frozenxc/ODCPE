@@ -108,7 +108,7 @@
 
     .line 33
     .line 34
-    const v2, 0x4e56fc38    # 9.0171341E8f
+    const v2, 0x4e56fc38    # 9.017134E8f
 
     .line 35
     .line 36

@@ -86,7 +86,7 @@
 
     if-gt v0, v1, :cond_7
 
-    const-wide v8, -0x3c5a37a36834ced9L    # -7.8480313857871552E17
+    const-wide v8, -0x3c5a37a36834ced9L    # -7.848031385787155E17
 
     const/16 v2, 0x1e
 
@@ -781,7 +781,7 @@
 
     xor-long/2addr v2, v10
 
-    const-wide v4, -0x3c5a37a36834ced9L    # -7.8480313857871552E17
+    const-wide v4, -0x3c5a37a36834ced9L    # -7.848031385787155E17
 
     mul-long/2addr v2, v4
 
@@ -820,7 +820,7 @@
 
     move-wide/from16 v2, v27
 
-    const-wide v8, -0x3c5a37a36834ced9L    # -7.8480313857871552E17
+    const-wide v8, -0x3c5a37a36834ced9L    # -7.848031385787155E17
 
     const/16 v10, 0x2f
 

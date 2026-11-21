@@ -1870,7 +1870,7 @@
     .line 12
     .line 13
     .line 14
-    const v1, 0x4e56fc38    # 9.0171341E8f
+    const v1, 0x4e56fc38    # 9.017134E8f
 
     .line 15
     .line 16

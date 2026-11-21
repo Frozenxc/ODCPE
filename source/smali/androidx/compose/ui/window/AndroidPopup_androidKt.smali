@@ -759,7 +759,7 @@
     .line 328
     .line 329
     .line 330
-    const v1, 0x4da88f2f    # 3.53494496E8f
+    const v1, 0x4da88f2f    # 3.534945E8f
 
     .line 331
     .line 332

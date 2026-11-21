@@ -1,0 +1,6 @@
+package com.google.android.gms.common.api.internal;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public abstract class m1 {
+}

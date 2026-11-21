@@ -1,0 +1,27 @@
+package org.checkerframework.checker.units.qual;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes3.dex */
+public enum Prefix {
+    yotta,
+    zetta,
+    exa,
+    peta,
+    tera,
+    giga,
+    mega,
+    kilo,
+    hecto,
+    deca,
+    one,
+    deci,
+    centi,
+    milli,
+    micro,
+    nano,
+    pico,
+    femto,
+    atto,
+    zepto,
+    yocto
+}

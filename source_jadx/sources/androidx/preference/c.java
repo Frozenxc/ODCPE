@@ -1,0 +1,68 @@
+package androidx.preference;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes.dex */
+public abstract class c {
+    public static int adjustable = 2130968620;
+    public static int allowDividerAbove = 2130968625;
+    public static int allowDividerAfterLastItem = 2130968626;
+    public static int allowDividerBelow = 2130968627;
+    public static int checkBoxPreferenceStyle = 2130968769;
+    public static int defaultValue = 2130969038;
+    public static int dependency = 2130969041;
+    public static int dialogIcon = 2130969045;
+    public static int dialogLayout = 2130969046;
+    public static int dialogMessage = 2130969047;
+    public static int dialogPreferenceStyle = 2130969048;
+    public static int dialogTitle = 2130969051;
+    public static int disableDependentsState = 2130969052;
+    public static int dropdownPreferenceStyle = 2130969082;
+    public static int editTextPreferenceStyle = 2130969087;
+    public static int enableCopying = 2130969094;
+    public static int enabled = 2130969096;
+    public static int entries = 2130969109;
+    public static int entryValues = 2130969110;
+    public static int fragment = 2130969207;
+    public static int icon = 2130969238;
+    public static int iconSpaceReserved = 2130969244;
+    public static int initialExpandedChildrenCount = 2130969272;
+    public static int isPreferenceVisible = 2130969279;
+    public static int key = 2130969310;
+    public static int layout = 2130969322;
+    public static int maxHeight = 2130969503;
+    public static int maxWidth = 2130969508;
+    public static int min = 2130969517;
+    public static int negativeButtonText = 2130969584;
+    public static int order = 2130969599;
+    public static int orderingFromXml = 2130969600;
+    public static int persistent = 2130969629;
+    public static int positiveButtonText = 2130969646;
+    public static int preferenceCategoryStyle = 2130969647;
+    public static int preferenceCategoryTitleTextAppearance = 2130969648;
+    public static int preferenceCategoryTitleTextColor = 2130969649;
+    public static int preferenceFragmentCompatStyle = 2130969650;
+    public static int preferenceFragmentListStyle = 2130969651;
+    public static int preferenceFragmentStyle = 2130969652;
+    public static int preferenceInformationStyle = 2130969653;
+    public static int preferenceScreenStyle = 2130969654;
+    public static int preferenceStyle = 2130969655;
+    public static int preferenceTheme = 2130969656;
+    public static int seekBarIncrement = 2130969707;
+    public static int seekBarPreferenceStyle = 2130969708;
+    public static int selectable = 2130969710;
+    public static int selectableItemBackground = 2130969711;
+    public static int shouldDisableView = 2130969730;
+    public static int showSeekBarValue = 2130969739;
+    public static int singleLineTitle = 2130969751;
+    public static int summary = 2130969815;
+    public static int summaryOff = 2130969816;
+    public static int summaryOn = 2130969817;
+    public static int switchPreferenceCompatStyle = 2130969821;
+    public static int switchPreferenceStyle = 2130969822;
+    public static int switchTextOff = 2130969825;
+    public static int switchTextOn = 2130969826;
+    public static int title = 2130969962;
+    public static int updatesContinuously = 2130970016;
+    public static int useSimpleSummaryProvider = 2130970021;
+    public static int widgetLayout = 2130970039;
+}

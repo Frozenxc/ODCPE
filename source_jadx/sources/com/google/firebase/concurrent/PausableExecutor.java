@@ -1,0 +1,13 @@
+package com.google.firebase.concurrent;
+
+import java.util.concurrent.Executor;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public interface PausableExecutor extends Executor {
+    boolean isPaused();
+
+    void pause();
+
+    void resume();
+}

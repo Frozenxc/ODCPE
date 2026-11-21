@@ -140,7 +140,7 @@
 
     .line 9
     .line 10
-    const v2, 0x4f5997c5    # 3.65060224E9f
+    const v2, 0x4f5997c5    # 3.6506022E9f
 
     .line 11
     .line 12

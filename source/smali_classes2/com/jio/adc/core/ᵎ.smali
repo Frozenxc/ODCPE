@@ -1080,7 +1080,7 @@
     move-result v5
 
     .line 54
-    const v6, -0x31cfbea2    # -7.3926848E8f
+    const v6, -0x31cfbea2    # -7.392685E8f
 
     .line 55
     .line 56

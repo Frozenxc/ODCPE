@@ -4042,6 +4042,8 @@
     .line 250
     .line 251
     .line 252
+    invoke-static {p0}, Lcom/jio/esimprovisioning/presentation/view/activity/OduModHelper;->attach(Landroid/app/Activity;)V
+
     return-void
 .end method
 

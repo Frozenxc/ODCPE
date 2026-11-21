@@ -176,7 +176,7 @@
         -0x5c786ff5
         0x25f034c
         -0x6545f250
-        0x4cdfeb9e    # 1.17398768E8f
+        0x4cdfeb9e    # 1.1739877E8f
         0x2bb9b77e
         -0x495bf01b
         0xe0245a4

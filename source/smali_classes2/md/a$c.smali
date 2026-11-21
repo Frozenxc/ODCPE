@@ -425,7 +425,7 @@
     .locals 2
 
     .line 1
-    const-wide v0, -0x3c5955381619d458L    # -8.1666881113907712E17
+    const-wide v0, -0x3c5955381619d458L    # -8.166688111390771E17
 
     .line 2
     .line 3

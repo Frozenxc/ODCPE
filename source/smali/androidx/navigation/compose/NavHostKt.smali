@@ -596,7 +596,7 @@
     .line 287
     .line 288
     .line 289
-    const v1, 0x4ea23aaf    # 1.36087744E9f
+    const v1, 0x4ea23aaf    # 1.3608774E9f
 
     .line 290
     .line 291

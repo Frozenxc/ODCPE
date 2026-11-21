@@ -1,0 +1,62 @@
+package androidx.compose.material3;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes.dex */
+public abstract class m {
+    public static int m3c_bottom_sheet_collapse_description = 2131887385;
+    public static int m3c_bottom_sheet_dismiss_description = 2131887386;
+    public static int m3c_bottom_sheet_drag_handle_description = 2131887387;
+    public static int m3c_bottom_sheet_expand_description = 2131887388;
+    public static int m3c_bottom_sheet_pane_title = 2131887389;
+    public static int m3c_date_input_headline = 2131887390;
+    public static int m3c_date_input_headline_description = 2131887391;
+    public static int m3c_date_input_invalid_for_pattern = 2131887392;
+    public static int m3c_date_input_invalid_not_allowed = 2131887393;
+    public static int m3c_date_input_invalid_year_range = 2131887394;
+    public static int m3c_date_input_label = 2131887395;
+    public static int m3c_date_input_no_input_description = 2131887396;
+    public static int m3c_date_input_title = 2131887397;
+    public static int m3c_date_picker_headline = 2131887398;
+    public static int m3c_date_picker_headline_description = 2131887399;
+    public static int m3c_date_picker_navigate_to_year_description = 2131887400;
+    public static int m3c_date_picker_no_selection_description = 2131887401;
+    public static int m3c_date_picker_scroll_to_earlier_years = 2131887402;
+    public static int m3c_date_picker_scroll_to_later_years = 2131887403;
+    public static int m3c_date_picker_switch_to_calendar_mode = 2131887404;
+    public static int m3c_date_picker_switch_to_day_selection = 2131887405;
+    public static int m3c_date_picker_switch_to_input_mode = 2131887406;
+    public static int m3c_date_picker_switch_to_next_month = 2131887407;
+    public static int m3c_date_picker_switch_to_previous_month = 2131887408;
+    public static int m3c_date_picker_switch_to_year_selection = 2131887409;
+    public static int m3c_date_picker_title = 2131887410;
+    public static int m3c_date_picker_today_description = 2131887411;
+    public static int m3c_date_picker_year_picker_pane_title = 2131887412;
+    public static int m3c_date_range_input_invalid_range_input = 2131887413;
+    public static int m3c_date_range_input_title = 2131887414;
+    public static int m3c_date_range_picker_day_in_range = 2131887415;
+    public static int m3c_date_range_picker_end_headline = 2131887416;
+    public static int m3c_date_range_picker_scroll_to_next_month = 2131887417;
+    public static int m3c_date_range_picker_scroll_to_previous_month = 2131887418;
+    public static int m3c_date_range_picker_start_headline = 2131887419;
+    public static int m3c_date_range_picker_title = 2131887420;
+    public static int m3c_dialog = 2131887421;
+    public static int m3c_dropdown_menu_collapsed = 2131887422;
+    public static int m3c_dropdown_menu_expanded = 2131887423;
+    public static int m3c_search_bar_search = 2131887424;
+    public static int m3c_snackbar_dismiss = 2131887425;
+    public static int m3c_suggestions_available = 2131887426;
+    public static int m3c_time_picker_am = 2131887427;
+    public static int m3c_time_picker_hour = 2131887428;
+    public static int m3c_time_picker_hour_24h_suffix = 2131887429;
+    public static int m3c_time_picker_hour_selection = 2131887430;
+    public static int m3c_time_picker_hour_suffix = 2131887431;
+    public static int m3c_time_picker_hour_text_field = 2131887432;
+    public static int m3c_time_picker_minute = 2131887433;
+    public static int m3c_time_picker_minute_selection = 2131887434;
+    public static int m3c_time_picker_minute_suffix = 2131887435;
+    public static int m3c_time_picker_minute_text_field = 2131887436;
+    public static int m3c_time_picker_period_toggle_description = 2131887437;
+    public static int m3c_time_picker_pm = 2131887438;
+    public static int m3c_tooltip_long_press_label = 2131887439;
+    public static int m3c_tooltip_pane_description = 2131887440;
+}

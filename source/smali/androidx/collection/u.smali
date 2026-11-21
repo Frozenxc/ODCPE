@@ -360,7 +360,7 @@
 
     .line 13
     :goto_0
-    const v4, -0x3361d2af    # -8.2930312E7f
+    const v4, -0x3361d2af    # -8.293031E7f
 
     .line 14
     .line 15
@@ -1344,7 +1344,7 @@
 
     .line 49
     :goto_1
-    const v13, -0x3361d2af    # -8.2930312E7f
+    const v13, -0x3361d2af    # -8.293031E7f
 
     .line 50
     .line 51

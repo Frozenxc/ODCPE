@@ -1,0 +1,9 @@
+package kotlinx.coroutines;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes3.dex */
+public interface n0 extends q1 {
+    Object N(kotlin.coroutines.c cVar);
+
+    Object l();
+}

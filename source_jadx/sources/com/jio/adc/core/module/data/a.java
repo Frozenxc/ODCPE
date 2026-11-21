@@ -1,0 +1,21 @@
+package com.jio.adc.core.module.data;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public final class a {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final boolean f16039a = false;
+
+    /* renamed from: b, reason: collision with root package name */
+    public static final String f16040b = "com.jio.adc.core.module.data";
+
+    /* renamed from: c, reason: collision with root package name */
+    public static final String f16041c = "release";
+
+    /* renamed from: d, reason: collision with root package name */
+    public static final int f16042d = 2122312200;
+
+    /* renamed from: e, reason: collision with root package name */
+    public static final String f16043e = "4.2.3";
+}

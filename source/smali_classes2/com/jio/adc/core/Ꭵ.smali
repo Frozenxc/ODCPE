@@ -1673,7 +1673,7 @@
 
     .line 266
     .line 267
-    const v7, 0x4ed85108    # 1.81459456E9f
+    const v7, 0x4ed85108    # 1.8145946E9f
 
     .line 268
     .line 269
@@ -3609,7 +3609,7 @@
     move-result-object v9
 
     .line 220
-    const v10, 0x4ed850fe    # 1.81459328E9f
+    const v10, 0x4ed850fe    # 1.8145933E9f
 
     .line 221
     .line 222
@@ -6044,7 +6044,7 @@
     move-result v8
 
     .line 227
-    const v9, 0x4ed85108    # 1.81459456E9f
+    const v9, 0x4ed85108    # 1.8145946E9f
 
     .line 228
     .line 229
@@ -6852,7 +6852,7 @@
 
     .line 626
     .line 627
-    const v9, 0x4ed850fe    # 1.81459328E9f
+    const v9, 0x4ed850fe    # 1.8145933E9f
 
     .line 628
     .line 629

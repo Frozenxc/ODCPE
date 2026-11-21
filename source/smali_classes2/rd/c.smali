@@ -106,7 +106,7 @@
     .line 39
     :array_0
     .array-data 4
-        0x53e95b5a    # 2.00452001E12f
+        0x53e95b5a    # 2.00452E12f
         -0x776a5092
         0x575e68a6
         -0x4a2308c9
@@ -605,7 +605,7 @@
         0xae1ae9f
         0x7dd179ed
         0x295842bd
-        0x4de36e90    # 4.76959232E8f
+        0x4de36e90    # 4.7695923E8f
         -0x654c4efe
         -0x77c77fc4
         -0x86adb5c

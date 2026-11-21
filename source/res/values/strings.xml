@@ -883,7 +883,7 @@ JioHomeJFE"</string>
     <string name="jfe_login_to">Log in</string>
     <string name="jfe_logout_confirm_msg">Are you sure you want to logout?</string>
     <string name="jfe_logout_invalid_token_error_msg">Unauthorized, Invalid or expired JWT/tokenIdentifier mismatch.</string>
-    <string name="jfe_msg_new_tnc">By requesting OTP you agree to the <font color="#000000"><b>Terms &amp; Conditions</b></font> &amp; </string>
+    <string name="jfe_msg_new_tnc">By requesting OTP you agree to the <font color="#000000"><b>Terms &amp; Conditions</b></font>" &amp; "</string>
     <string name="jfe_msg_no_internet">Internet not available</string>
     <string name="jfe_msg_no_internet_connection">No Internet connection. Please connect to your WiFi network and try again.</string>
     <string name="jfe_nav_close">Close</string>

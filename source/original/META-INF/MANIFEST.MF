@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 
 Name: AndroidManifest.xml
-SHA-256-Digest: BE7bkeBqCbFBwEF4HnRXaB9MkQVKrfwym3GcCbkL/UE=
+SHA-256-Digest: 3uUi3W5thIrH1C+UxKV8guE54RFq+RqYEnMB9xhJhAo=
 
 Name: DebugProbesKt.bin
 SHA-256-Digest: rooILdYJMTg1upPD70eaOvmQOXfXvcgd9Fu9IJ7H0No=
@@ -89,10 +89,13 @@ Name: classes.dex
 SHA-256-Digest: sehKDDK+5H17f3YTBWGiZCbCgd9GEH4Vut8iA6jRTXQ=
 
 Name: classes2.dex
-SHA-256-Digest: W2XB3B7wfeO0pIMG7dZXT0RB8KrHl0OGfZ+2geO6rn0=
+SHA-256-Digest: /LvT/Oj0TQ7NbCNI+ADBjZd2PDLRPUas2HkH6LkioXQ=
 
 Name: classes3.dex
 SHA-256-Digest: ugxFd9jfNOOnMJSPPGHsxvRDb6iO0zaIuR8dkTJDPfk=
+
+Name: classes4.dex
+SHA-256-Digest: SGU0/ljlsN0PCrOmwedRqEMlMP8SXtyyYwmklKTDLQk=
 
 Name: com/clevertap/android/sdk/certificates/AmazonRootCA1.cer
 SHA-256-Digest: js3miE89h7ESW6Maw/yxPXAW3n9XzJBP4cuXxq6YGW4=
@@ -7138,7 +7141,7 @@ Name: res/layout/action_buttons.xml
 SHA-256-Digest: KwVQ6WdYenwiBdapd+uz7FxsKqRvEFS0eEqxp35NV0E=
 
 Name: res/layout/activity_activate5_gactivity_esim.xml
-SHA-256-Digest: F5Nwzd/GoQx4fnpHaFZjD3vvTyBcPv9UOPwNebwE0Q4=
+SHA-256-Digest: SyyBC+Y43+UnuVG1UmBQBCaKLw5y2lOaGHAOddwBm24=
 
 Name: res/layout/activity_admin_login_esim.xml
 SHA-256-Digest: WnmhfWCgFS/UixiV2IdNZX3mEHGduyZq3kDHIqGIhMs=
@@ -7841,7 +7844,7 @@ Name: res/xml/splits0.xml
 SHA-256-Digest: hJ3gbxvs1rCEsy3SqpZCXPL/YwtHHFfLkM1nADJeIiE=
 
 Name: resources.arsc
-SHA-256-Digest: J8WjRzvyhhIrl0ydSfHpJMtRwYMZhLNxLrOOTSS4t3g=
+SHA-256-Digest: 5SSeXxQxvn9iwqqgSoW0CRHYqjL0HujZl0WOe9/V9n4=
 
 Name: transport-backend-cct.properties
 SHA-256-Digest: HtA57knw190QGWR3as7XPc3wsjNdJNtMpTMPfOYpstY=

@@ -1,0 +1,68 @@
+package qg;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes3.dex */
+public abstract class x {
+    public static int apps_title_color = 2131099691;
+    public static int arrow_color = 2131099692;
+    public static int bg_pair_button = 2131099701;
+    public static int black = 2131099704;
+    public static int bt_power_off = 2131099713;
+    public static int bt_power_on = 2131099714;
+    public static int btn_bg_skyblue = 2131099715;
+    public static int btn_color_blue = 2131099716;
+    public static int cancel_button = 2131099727;
+    public static int card_background = 2131099731;
+    public static int card_dark_color = 2131099732;
+    public static int card_light_color = 2131099733;
+    public static int card_shadow_1 = 2131099735;
+    public static int card_shadow_2 = 2131099736;
+    public static int ch_vol_color = 2131099746;
+    public static int colorAccent = 2131099752;
+    public static int colorActive = 2131099753;
+    public static int colorInactive = 2131099754;
+    public static int colorPrimary = 2131099758;
+    public static int colorPrimaryDark = 2131099759;
+    public static int color_light_theme = 2131099762;
+    public static int color_primary_dark_new = 2131100855;
+    public static int color_primary_new = 2131100856;
+    public static int dark_theme = 2131100876;
+    public static int device_edit_color = 2131100917;
+    public static int dpad_boder_color = 2131100927;
+    public static int error = 2131100929;
+    public static int gamepad_bg = 2131100947;
+    public static int gamepad_dark_transparency_color = 2131100948;
+    public static int gamepad_transparency_color = 2131100949;
+    public static int gray_color = 2131100952;
+    public static int gray_color_light = 2131100953;
+    public static int grey_edittext_background = 2131100956;
+    public static int hoover = 2131100964;
+    public static int light_gray_new = 2131100970;
+    public static int light_white = 2131100971;
+    public static int loader_defalut = 2131100975;
+    public static int loader_selected = 2131100976;
+    public static int navy_blue = 2131101647;
+    public static int new_ux_primary = 2131101649;
+    public static int ok_button = 2131101656;
+    public static int remote_colorPrimary1 = 2131101682;
+    public static int semi_transparent_color = 2131101698;
+    public static int settings_bg = 2131101700;
+    public static int swipe_intro_dark = 2131101718;
+    public static int switch_layout_dark_bg = 2131101719;
+    public static int switch_layout_light_bg = 2131101720;
+    public static int switch_layout_text_color = 2131101721;
+    public static int tab_text_color = 2131101728;
+    public static int textColorPrimary = 2131101733;
+    public static int text_color_black = 2131101734;
+    public static int text_color_grey = 2131101735;
+    public static int translucent = 2131101743;
+    public static int translucent_btn_bg_black = 2131101744;
+    public static int translucent_hoover = 2131101745;
+    public static int translucent_white_text = 2131101746;
+    public static int transparent = 2131101747;
+    public static int transparent_background = 2131101748;
+    public static int volume_bg = 2131101758;
+    public static int volume_progress_bg = 2131101759;
+    public static int volume_seekbar_bg = 2131101760;
+    public static int white = 2131101763;
+}

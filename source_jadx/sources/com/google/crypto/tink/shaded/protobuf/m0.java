@@ -1,0 +1,7 @@
+package com.google.crypto.tink.shaded.protobuf;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public interface m0 {
+    Object newInstance(Object obj);
+}

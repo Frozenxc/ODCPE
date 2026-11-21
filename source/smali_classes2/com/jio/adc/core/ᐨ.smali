@@ -1833,7 +1833,7 @@
         0x55b98df3
         0x3078ba5e
         0x749f2091
-        -0x3346109a    # -9.7483568E7f
+        -0x3346109a    # -9.748357E7f
         -0x30d4e8d0
     .end array-data
 .end method

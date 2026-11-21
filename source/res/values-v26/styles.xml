@@ -2,16 +2,6 @@
 <resources>
     <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat" />
     <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
-    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
-        <item name="colorError">?android:colorError</item>
-    </style>
-    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
-        <item name="colorError">?android:colorError</item>
-    </style>
-    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
-        <item name="android:touchscreenBlocksFocus">true</item>
-        <item name="android:keyboardNavigationCluster">true</item>
-    </style>
     <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
     <style name="ESIM_AppTheme.FullScreen" parent="@style/ESIM_AppTheme">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -51,15 +41,25 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowTranslucentStatus">true</item>
     </style>
-    <style name="ESIM_jiocareTitle">
-        <item name="android:textSize">@dimen/sp14</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:fontFamily">@font/esim_jiotype_light</item>
-    </style>
     <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
         <item name="android:background">?colorPrimary</item>
         <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
         <item name="android:touchscreenBlocksFocus">true</item>
         <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="ESIM_jiocareTitle">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/esim_jiotype_light</item>
     </style>
 </resources>

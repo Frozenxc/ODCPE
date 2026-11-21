@@ -1,0 +1,67 @@
+package pf;
+
+/* compiled from: com.odcpe.connect */
+/* loaded from: classes2.dex */
+public abstract class h {
+    public static int AppBottomSheetDialogTheme = 2131951629;
+    public static int AppModalStyle = 2131951630;
+    public static int BaseThemeActionBarESIM = 2131951913;
+    public static int BottomSheetDialog = 2131951915;
+    public static int CustomDialog = 2131951920;
+    public static int ESIM_AppTheme = 2131951926;
+    public static int ESIM_AppTheme_FullScreen = 2131951927;
+    public static int ESIM_AppTheme_FullScreen_AppBarOverlay = 2131951928;
+    public static int ESIM_AppTheme_FullScreen_PopupOverlay = 2131951929;
+    public static int ESIM_AppTheme_JioStatusBar = 2131951930;
+    public static int ESIM_AppTheme_JioToolBar = 2131951931;
+    public static int ESIM_AppTheme_JioToolBar_Transparent = 2131951932;
+    public static int ESIM_AppTheme_NoActionBar = 2131951933;
+    public static int ESIM_AppTheme_WifissidToolbar = 2131951934;
+    public static int ESIM_BodyText = 2131951935;
+    public static int ESIM_ClientDevice = 2131951936;
+    public static int ESIM_CustomTextInputLayoutStyle_ErrorTextStyle = 2131951937;
+    public static int ESIM_ErrorText = 2131951938;
+    public static int ESIM_FloatingLabelColorSize = 2131951939;
+    public static int ESIM_GetStarted = 2131951940;
+    public static int ESIM_InstallationGuideText = 2131951941;
+    public static int ESIM_InstallationTitle = 2131951942;
+    public static int ESIM_JiocareLeftPanel = 2131951943;
+    public static int ESIM_JiocareRightPanel = 2131951944;
+    public static int ESIM_LightFont = 2131951945;
+    public static int ESIM_LoginButton = 2131951946;
+    public static int ESIM_MediumFont = 2131951947;
+    public static int ESIM_NavigationMenuItem = 2131951948;
+    public static int ESIM_NetworkInfoTitle = 2131951949;
+    public static int ESIM_ScreenTitleBackground = 2131951950;
+    public static int ESIM_TextAppearance = 2131951951;
+    public static int ESIM_TextAppearance_MaterialCompat = 2131951952;
+    public static int ESIM_TextAppearance_MaterialCompat_Body1 = 2131951953;
+    public static int ESIM_TextAppearance_MaterialCompat_Body2 = 2131951954;
+    public static int ESIM_TextAppearance_Widget_Stepper_Done = 2131951955;
+    public static int ESIM_TextAppearance_Widget_Stepper_Normal = 2131951956;
+    public static int ESIM_TextAppearance_Widget_Stepper_Selected = 2131951957;
+    public static int ESIM_TextInputLayoutAppearance = 2131951958;
+    public static int ESIM_TextInputLayoutUnderLine = 2131951959;
+    public static int ESIM_Theme_AppCompat_Transparent_NoActionBar = 2131951960;
+    public static int ESIM_Theme_AppCompat_Transparent_NoTitleBar = 2131951961;
+    public static int ESIM_error_appearance = 2131951962;
+    public static int ESIM_hint_appearance = 2131951963;
+    public static int ESIM_jiocareTitle = 2131951964;
+    public static int ESIM_next = 2131951965;
+    public static int ESIM_retry = 2131951966;
+    public static int ESIM_wificonnect = 2131951967;
+    public static int FloatingLabelColorSize = 2131951970;
+    public static int RoundProgressDialog = 2131952045;
+    public static int SDK_Theme = 2131952063;
+    public static int TextInputLayoutUnderLine = 2131952248;
+    public static int Theme_ESIMProvisioning = 2131952279;
+    public static int Theme_ESIMProvisioning_AppBarOverlay = 2131952280;
+    public static int Theme_ESIMProvisioning_NoActionBar = 2131952281;
+    public static int Theme_ESIMProvisioning_PopupOverlay = 2131952282;
+    public static int Theme_TextRecognizer = 2131952363;
+    public static int TransparentProgressDialog = 2131952479;
+    public static int _jiocareTitle = 2131952864;
+    public static int airfiber_hintTextAppearance = 2131952865;
+    public static int bottomSheetStyleWrapper = 2131952866;
+    public static int hintTextAppearance = 2131952867;
+}

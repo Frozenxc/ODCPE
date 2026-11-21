@@ -140,7 +140,7 @@
 
     .line 26
     .line 27
-    const v2, 0x4da88f2f    # 3.53494496E8f
+    const v2, 0x4da88f2f    # 3.534945E8f
 
     .line 28
     .line 29

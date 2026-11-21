@@ -599,7 +599,7 @@
         -0x705ac94b
         0x48a7420a
         0x25b985b2
-        0x4e12fc14    # 6.1649843E8f
+        0x4e12fc14    # 6.164984E8f
         -0x41136d17
     .end array-data
 .end method
@@ -864,7 +864,7 @@
     .line 131
     :array_0
     .array-data 4
-        0x4dcbf0a4    # 4.27693184E8f
+        0x4dcbf0a4    # 4.276932E8f
         0x499e8290    # 1298514.0f
         -0x68c7005b
         -0x56661404
@@ -905,7 +905,7 @@
         -0x51cf94f8
         0x3f52e2da
         -0x5545b115
-        0x4d300c15    # 1.84598864E8f
+        0x4d300c15    # 1.8459886E8f
         -0x3474af83    # -1.8260218E7f
         0x2d80e07e
     .end array-data
